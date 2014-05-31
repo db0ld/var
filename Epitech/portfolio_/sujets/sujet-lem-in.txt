@@ -1,0 +1,221 @@
+"Hex"
+
+Mise en contexte :
+
+Des étudiants en magie ont fabriqué Hex, une machine à penser. A base de
+fourmis pour les calculs, de ruches et d'abeilles pour la mémoire, d'une
+souris pour... euh oui pourquoi au fait ?, de fromage (pour nourrir la
+souris), d'une plume pour écrire.*
+
+Et qu'est ce qu'on en fait ?
+
+On va s'intéresser plus particulièrement à sa partie calculs.
+Son fonctionnement ? Simple ! On monte une fourmilière avec tout son lot
+de tunnels et de salles, on met des fourmis d'un côté et on regarde
+comment elles trouvent la sortie.
+Comment on monte une fourmilière ? On a besoin de tubes et de
+boîtes.
+On relie les boîtes entre elles par plus ou moins de tubes. 
+Un tube relie deux boîtes entre elles et pas plus. 
+Une boîte peut être réliée à une infinité d'autres boîtes par autant de
+tubes qu'il en faudra.
+Ensuite on enterre le tout (où vous voudrez) pour que les fourmis ne
+puissent pas tricher en regardant avant de commencer.
+
+Comme ici, on est pas trop bricolage à coup de boîtes, scotch et bouts de
+ficelle, on va en faire une version hightech.
+Le but du projet sera donc de faire un simulateur de "Hex"
+
+Votre programme va recevoir sur l'entrée standart la description de la
+fourmilière sour la forme suivante :
+
+        nombre_de_fourmis\n
+        les_salles\n
+        les_tubes
+
+        - la fourmilière est donnée par ses liaisons:
+
+                ##home
+                1 23 3
+                2 16 7
+                #commentaire
+                3 16 3
+                4 16 5
+                5 3 9
+                6 1 0
+                7 4 8
+                ##end
+                0 9 5
+                0-4
+                0-6
+                1-3
+                4-3
+                5-2
+                3-5
+                #autre commentaire
+                4-2
+                2-1
+                7-6
+                7-2
+                7-4
+                6-5
+                                      
+              Ce qui représente :
+
+                           _______________  
+                          /               \ 
+                  ______[5]----[3]----[1]  |
+                 /              |    /     |
+                [6]-----[0]----[4]  /      |
+                 \   _________/ |  /       |
+                  \ /          [2]/_______/ 
+                   [7]_________/            
+        
+
+                On a donc deux parties :
+                la définition des salles sous la forme suivante : 
+                        nom coord_x coord_y
+                puis la définition des tubes : 
+                        A-B
+                Attention, les noms des salles ne seront pas forcement des chiffres
+dans l'ordre et encore moins continus (on pourra trouver des salles aux
+noms zdfg, 256, qwerty etc ...). Les coordonnées des salles seront
+toujours entières.
+                A noter qu'il est possible d'insérer des commentaires commencant par
+des #.
+                Les lignes commencant par un ## (double #) sont des commandes
+modifiant les propriétés de la ligne qui vient juste après. Par exemple
+##start indique l'entrée de la fourmilière et ##end la sortie.
+                Toute commande inconnue sera ignorée.
+                Le but du projet est de trouver le moyen le plus rapide de faire
+traverser la fourmilière par n fourmis
+                Evidemment, il y a quelques contraintes : pour arriver le premier, il
+faut prendre le chemin le plus court (et pas forcément pour autant le
+plus simple), ne pas marcher sur ces congénères, tout en évitant les
+embouteillages.
+                Au début du jeu, toutes les fourmis sont sur la salle indiquée par la
+commande ##start. Le but  est de  les  ammener  sur la salle indiquée
+par la commande ##end en  le moins de tours possibles. Chaque salle peut
+contenir une seule fourmi à la fois (sauf ##start et ##end qui  peuvent
+en contenir autant  qu'il en faut). A chaque tour vous pouvez déplacer
+chaque fourmi une seule fois et ce suivant un tube (La salle réceptrice
+doit être libre).
+                Vous  devez sortir le résultat sur la sortie standard sous la forme
+suivante (pour chaque tours):
+
+                        nombre_de_fourmis\n
+                        les_salles\n
+                        les_tubes\n
+                        Px-y Pz-w Pr-o ...\n
+
+                        Ou  x,z,r sont des numéros de pions et y,w,o des noms de
+salles.
+                        La première ligne non conforme ou vide entraîne la fin de
+l'acquisition de la fourmilière et son traitement normal avec les donneées déjà aquises.
+
+        - Exemples :
+
+           1)   si on a en entree :
+                3\n
+                ##start
+                0 1 0\n
+                ##end
+                1 5 0\n
+                2 9 0\n
+                3 13 0\n
+                0-2\n
+                2-3\n
+                3-1\n
+        
+                ca represente se graphe suivant :
+
+                [0]-[2]-[3]-[1]
+
+                Vous devez sortir :
+
+                3\n
+                ##start
+                0 1 0\n
+                ##end
+                1 5 0\n
+                2 9 0\n
+                3 13 0\n
+                0-2\n
+                2-3\n
+                3-1\n
+                P1-2\n
+                P1-3 P2-2\n
+                P1-1 P2-3 P3-2\n
+                P2-1 P3-3\n
+                P3-1\n
+
+                Voila c'est fini donc c'est fait en 5 tours (Ce message ne fait
+pas partie de la sortie).
+
+            2)  si on a en entrée :
+                3\n
+                2 5 0\n
+                ##start
+                0 1 2\n
+                ##end
+                1 9 2\n
+                3 5 4\n
+                0-2\n
+                0-3\n
+                2-1\n 
+                3-1\n 
+                2-3\n   
+              
+                ça représente le graphe suivant :
+                      
+                    [2]
+                   / | \
+                [0]  |  [1]
+                   \ | /
+                    [3]
+        
+                Vous devez sortir :
+        
+                3\n
+                2 5 0\n
+                ##start
+                0 1 2\n
+                ##end
+                1 9 2\n
+                3 5 4\n
+                0-2\n
+                0-3\n
+                2-1\n 
+                3-1\n 
+                2-3\n   
+                P1-2 P2-3\n
+                P1-1 P2-1 P3-2\n
+                P3-1\n
+        
+                Voila c'est fini donc c'est fait en 3 tours.
+        
+        - Avertissement :
+        
+                Attention ce n'est pas aussi simple que ça en a l'air.
+                Quant à savoir quel type d'opération les étudiants en magie pouvaient
+bien faire avec un tel ordinateur, tout ce qu'on en sait aujourd'hui,
+c'est que l'électricité c'est plus fiable :)
+
+La suite :
+        En bonus, pourquoi ne pas coder un visualisateur de fourmilière ?
+        Soit en deux dimensions, vue de "dessus". Voire pourquoi pas du point
+de vue d'une fourmi dans un environnement de couloirs en 3D (comment ça
+un wolf ?)
+        Pour l'utiliser il suffirait d'un "./lem-in < map_fourmilliere.txt
+| ./visu-hex" ?
+        A noter que puisque les commandes et commentaires sont répétés sur la
+sortie, il est donc possible de passer des commandes spécifiques au
+visualisateur (pourquoi pas des couleurs, des niveaux ... à votre
+guise !).
+        Vous l'aurez noté, les coordonnées des salles seront utiles seulement
+ici.
+
+(*) Pour plus d'info (si j'ose dire) réferez-vous aux livres** de Terry
+Pratchett, histoire de changer du 42.
+(**) Oook !
+

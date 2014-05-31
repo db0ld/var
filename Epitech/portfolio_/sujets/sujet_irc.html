@@ -1,0 +1,80 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><script charset="utf-8" id="injection_graph_func" src="sujet_irc_fichiers/injection_graph_func.js"></script></head><body>#########################
+
+   Miniproj  C-Unix
+
+         -
+
+       my_irc
+
+#########################
+
+<i>A réaliser en binôme.</i><pre>
+Répertoire de rendu : ~/rendu/c/my_irc
+      contenant un unique Makefile et les 2 binaires
+      client et serveur.
+
+
+Il s'agit ici d'implémenter un mini IRC, côté serveur et client.
+ (Pour ceux qui savent pas ce qu'est un IRC, c'est une sorte de CHAT,
+   ou encore un système de discussion en temps réel, qui gère des
+   groupes de discussions appelés "channel", et permet des échanges de
+   fichiers).
+
+Vous pouvez vous inspirer d'un code déjà existant qui est une ébauche de
+ serveur. Il est disponible avec le sujet.
+
+</pre><h1>A faire sur 20pts</h1><pre>- Implémenter la notion de nickname (un surnom, le login par défaut)
+- Implémenter la notion de channel
+- Qui est loggué sur le channel ?
+- Envoi de messages à un utilisateur particulier du channel
+- Passage du code en mode non-bloquant: le code fourni est bloquant.
+   Si un client en "stoppe" (pas arrêté..) le serveur peut se bloquer
+   après un cours délai. Attention, un seul Select dans votre code
+   est autorisé.
+
+ATTENTION: cela n'a rien à voir avec des sockets non bloquantes qui
+           elles sont interdites (donc pas de fcntl(s, O_NONBLOCK))
+  
+
+</pre><h1>En bonus sur 5pts</h1><pre>- Envoi d'un fichier à un utilisateur donne du channel, avec demande
+  de confirmation de la part du destinataire.
+- Envoi d'un fichier en mode non bloquant
+- Envoi d'un fichier sans l'intermédiaire du serveur.
+
+Ces bonus ne seront pris en compte que si la partie "Passage en non
+ bloquant" est réalisée.
+
+L'utilisation de Fork est interdite. Le serveur comme le client
+doivent être capables de géerer correctement tous les echanges
+d'informations.
+
+On veillera à utiliser des commandes clients proches de celles d'un
+ client irc classique :
+
+/server _host_[:port]     se connecte à un serveur.
+/nick _nickname_          se donne un nickname utilisé pour entrer dans
+                          un channel.
+/list [string]            liste les channels disponibles sur le serveur.
+                          N'affiche que les channels contenant
+                          la chaine "string" si celle-ci est spécifiée.
+/join _channel_          rejoint un channel du serveur.
+/part _channel_          quite le channel.
+/users                    liste les utilisateurs connectes au channel.
+                          (liste les nicknames bien sûr..)
+_message_                 envoie un message à tous les utilisateurs du channel.
+/msg _nick_ _message_     envoie un message à un utilisateur spécifique.
+/send_file _nick_ _file_  envoie un fichier à un utilisateur.
+/accept_file _nick_from_  accepte la réception d'un fichier en provenance
+                          d'un utilisateur du channel.
+
+
+NB: Pour faire des test, utilisez le numéro de port votre UID afin
+    d'éviter les conflits.
+
+A faire impérativement sur NetBSD/i386, Alpha et Sun : client sur l'un, serveur sur
+  un autre...  Sujet à malus!!
+
+
+####### Done #######
+</pre></body></html>

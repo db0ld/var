@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <title>Zakariya Kévin - Portfolio</title>
+  <link rel="icon" type="image/gif" href="fav.gif">
+<link rel="shortcut icon" href="fav.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="fr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="DC.Language" scheme="RFC3066" content="fr" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Normal" />  
+</head>
+<body>
+<div id="main">
+<a href="?page=home"><div id="header"></div></a>
+
+<div id="page">
+<div class="projet">
+<img src="images/projets/anime-ultime.jpg" />
+<h3>Anime-ultime.net</h3>
+<p>Depuis 2004</p>
+<p>Ma deuxième passion après l'informatique est l'animation Japonaise. C'est pourquoi j'ai créer en 2004 avec plusieurs camarades un site web  permettant un accès facilité aux personnes passionnées comme moi à diverses informations et vidéos sur des animes. Ce projet s'est agrandie au fil des années et connaît aujourd'hui un grand succés. De plus, m'étant amélioré en informatique au cours des années, j'y ai apporté de plus en plus de modifications pour l'optimiser au maximum et le rendre agréable d'utilisation.</p>
+<a href="http://anime-ultime.net" target="_blank">Voir ce site web</a>
+</div>
+
+<hr />
+
+<div class="projet">
+<img src="images/projets/bt-anime.jpg" />
+<h3>Bt-Anime</h3>
+<p>Depuis 2006</p>
+<p>Toujours dans le thème de la Japanisation, ce site est en fait une plateforme utilisant le système de Peer-to-peer "Torrent" et permet aux utilisateurs de télécharger et de proposer des vidéos toujours en rapport avec la Japanisation.</p>
+<a href="http://bt-anime.net" target="_blank">Voir ce site web</a>
+</div>
+
+<hr />
+
+<div class="projet">
+<img src="images/projets/stream-anime.jpg" />
+<h3>Stream-Anime</h3>
+<p>Depuis 2008</p>
+<p>Je ne change pas de passion, et continue avec un site de streaming de vidéos d'animation japonaise. Celui-ci à la particularité d'être complétement autonome, me permettant de ne pas avoir à utiliser mon temps libre pour m'en occuper et me consacrer à mes études. En effet, les vidéos sont tout d'abord téléchargées en Torrent (peer-to-peer, grâce à un site distribuant des liens de téléchargement sur une page XML), puis envoyées sur le serveur pour être réencodées et bénéficier d'une reconversion des sous-titres lisibles alors sur un lecteur flash.</p>
+<a href="http://stream-anime.org" target="_blank">Voir ce site web</a>
+</div>
+
+<hr />
+
+<div class="projet">
+<img src="images/projets/karaokanime.jpg" />
+<h3>Karaokanime</h3>
+<p>2009 - En cours</p>
+<p>Aimant aussi chanter et étant très assidu des évenements Epitanime (association de chez Epitech organisant des soirées karaokés), j'ai décidé de monter avec ma petite amie une association proposant des karaokés en streaming. Ces karaokés seront envoyés sur le site directement par les utilisateurs-mêmes du site. Par la suite, nous avons l'intention de faire un dépôt légal de cette association et participer à des évenements du même type que Epitanime sous le drapeau de notre association.</p>
+<a href="http://karaokanime.com" target="_blank">Voir ce site web</a>
+</div>
+
+<hr />
+</div>
+
+
+<div id="footer">
+<span style="font-size: 18px; color: #000000;">.</span>
+<a href="?page=home"><img src="images/interface/accueil.png" alt="accueil" /></a> 
+<a href="?page=cv"><img src="images/interface/cv.png" alt="cv" /></a> 
+<a href="?page=experiences"><img src="images/interface/experiences.png" alt="experiences" /></a> 
+<a href="?page=monecole"><img src="images/interface/mon-ecole.png" alt="mon ecole" /></a> 
+<a href="?page=projetspersonnels"><img src="images/interface/projets-personnels.png" alt="projets personnels" /></a> 
+<a href="?page=contact"><img src="images/interface/contact.png" alt="contact" /></a>
+ <span style="font-size: 18px; color: #000000;">.</span>
+</div>
+
+</div>
+</body>
+</html>

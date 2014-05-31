@@ -1,0 +1,86 @@
+				  my_ls
+				  ====
+
+
+A realiser seul.
+
+Repertoire de rendu :	~/rendu/c/my_ls/
+
+chmod 711 ~/
+chmod 710 ~/rendu
+chmod 710 ~/rendu/c
+chmod 750 ~/rendu/c/my_ls
+
+*******************************************************************************
+
+    Votre code doit compiler sur Intel (FreeBSD)
+    et Sun (SunOS 5.8), Itanium (Linux),
+
+*******************************************************************************
+
+Fonctions utiles a connaitre pour resoudre ce mini-proj:
+opendir, readdir, closedir, stat, lstat, getpwuid, getgrgid, ctime, readlink.
+
+*******************************************************************************
+
+
+Type:		executable avec Makefile
+
+Nom:		my_ls
+
+Rendu:		~/rendu/c/my_ls
+
+Description:	man ls
+
+Contraintes:	synopsis: my_ls [-lRdrt] ...
+		- ces options doivent pouvoir etre passees dans un
+		  sens quelconque.
+		- vous ne devez pas gerer le formatage en colonnes de
+		  la commande ls sans l'option -l.
+		- il doit etre possible de faire l'affichage d'une
+		  liste de fichiers.
+		- Votre programme sera teste avec une moulinette sur NetBSD
+		  et sur SunOS et Alpha en Soutenance.
+		- Votre ls devra etre capable de faire 
+		  un "ls -l /dev /usr/sbin".
+		- Un Makefile devra etre present dans le repertoire pour
+		  compiler le programme qui contiendra les regles fclean. 
+		  Vous ne pourrez passez de soutenance que si votre 
+		  programe compile sans warning.
+
+Bonus:		
+		- Gestion des colonnes (man 4 tty)
+		- option -uFgf
+
+Exemples:
+
+$> ./my_ls -l -R
+total 4
+-rw-------   1 astek      operator     606 Oct 29 10:45 #myls#
+-rw-r--r--   1 astek      prof         860 Oct 19 11:11 bdsh
+-rw-r--r--   2 astek      operator     830 Oct 13 14:11 bdsh~
+-rwxr-xr-x   1 astek      operator     497 Oct 13 14:00 stream.a*
+$> ./my_ls -Rl ~astek/doc
+total 299
+drwx------   2 astek      prof         512 Jul 16  1999 Autres
+-rw-r--r--   1 astek      prof        4892 Oct 27  1999 faq
+-rwxr-xr-x   1 astek      prof        3147 Oct  9 16:22 gdb.html
+-rw-r--r--   1 astek      prof      253956 Jul 27  1999 livre.pdf
+-rwxr-xr-x   1 astek      prof       10336 Oct 20 10:35 norme
+-rw-r--r--   1 astek      prof        7490 Sep 17  1999 old_norme
+-rw-r--r--   1 astek      prof        3184 Sep 30 10:31 planning
+-rwxr-xr-x   1 astek      prof        1470 Mar 24  2000 soutenances
+$> ./my_ls ./lib
+iob
+libextra_FreeBSD.a
+libmlx_FreeBSD.a
+libmlx_ia64.a
+libmy_FreeBSD.a
+libmy_ia64.a
+libmy_list_FreeBSD.a
+lmd
+my
+my_btree
+my_list
+$>
+
