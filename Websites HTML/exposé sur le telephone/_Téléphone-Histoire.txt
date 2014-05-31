@@ -1,0 +1,60 @@
+			Introduction :
+
+	Le téléphone fixe est un appareil de communication qui permet une transmission de la voix humaine. Il est donc utilisé afin de créer une conversation à distance. L'inventeur officiellement reconnu est Alexander Graham Bell, malgrès que plusieurs précurseurs aient déjà évoquer le principe de cet appareil dès 1854, en particulier le français Charles Bourseul.
+	Le 2 juin 1875, alors que Alexander Graham Bell travaillait sur un système de télégraphie harmonique, il décourvrit qu'un fil électrique est capable de restituer le son correspondant à la vibration d'un ressort d'acier placé à l'extrémité de ce fil.
+	C'est cette date qui marque le début de la création du téléphone. Graham Bell ainsi que son assistant Thomas Watson commencent les premiers prototypes de téléphone.
+	C'est à l'occasion de l'Exposition du centenaire de la fondation des Etats-Unis à Philadelphie en 1876 qu’il présente officiellement son invention.
+
+			Partie 1:
+
+		Les téléphones fixes les plus simples ont besoin de certains matériaux élémentaires tels que : 
+			· Deux dispositifs émetteur-récepteur appelés postes téléphoniques,
+			· Une ligne bifilaire acheminant les signaux (paire torsadée),
+			· Une source d’énergie électrique
+			· Un transducteur
+
+	 La source d'énergie électrique permet d'alimenter un "transducteur". Celui-ci convertie une grandeur physique en une autre, dans ce cas là, il s'agit de la voix, un son qui va être transformé en signal électrique afin de l'acheminer, grâce à la ligne bifilaire, vers un autre poste qui va ensuite retransformer ce signal en son. Ce son est au préalable enregistré grâce à un micro et après son acheminement jusqu'à l'autre combiné par la ligne bifilaire il est retransformé puis diffusé grâce à des haut-parleurs.
+
+		Pour des téléphones à plus longue porté, le son transformé en signaux électriques est conduit par les prises téléphoniques. Celles-ci sont chargées de conduire les sons transformés jusqu'à l'opérateur qui va renvoyer ces signaux au destinataire. Une fois que le destinataire à accepter de recevoir l'apelle et qu'il a décrocher, il y a donc une conversation téléphonique qui se créer.
+
+
+			Partie 2:
+		
+			“<i>Je me suis demandé si la parole pourrait être transmise par l'électricité,
+		 en un mot si l'on pourrait parler à Vienne et se faire entendre à Paris.</i>” Charles BOURSEUL, 26 août 1854.
+
+	Vers le milieu du XIXeme siècle, le téléphone n'est encore qu'un idée évaquée par quelques inventeurs. Certain d'entre eux ont créés des prototypes de système de communication à distance, mais ce n'est qu'en 1876 que Alexander Graham Bell présente officiellement son invention. Après cet évènement, l'évolution à fortement augmenté puisque le 10 Mars de la même année, la première conversation téléphonique a lieu à Boston : Bell contacte son assistant Thomas Watson installé dans une pièce voisine. Quelques mois plus tard, le 9 Octobre, la première ligne téléphonique est testé et en Avril 1877 le téléphone naquis. Dès 1912, on compte 12 millions de postes téléphoniques dans le monde, dont 8 millions se trouvent aux États-Unis. Aux États-Unis un habitant sur 12 est abonné contre 1 sur 71 en Grande-Bretagne et 1 sur 183 en France à la même période.
+	Le 7 Janvier 1927, le téléphone traverse pour la première fois l'océan Atlantique permettant ainsi de relier les Etats-Unis et l'Europe grâce à des cables tranversant l'Atlantique. Après celà le réseau de téléphonie fixe n'a pas cesser de s'accroître et les matérieaux utilisés pour la fabrication des téléphones se sont améliorés.
+
+
+			Conclusion:
+
+	Le téléphone fixe est une grande découverte historique qui est désormais considéré comme un élément de la vie quotidiens. Malgré l'amélioration du téléphone portable, le téléphone fixe est tout de même un objet très utilisé car il reste un objet pratique, moderne et simple d'utilisation, permettant ainsi à toute personne d'âges confondus de s'en servir. Les téléphones de nos jours sont, selon mon opinion personnel, à un stade où il ne peuvent plus se dévelloper d'avantages bien qu'ils peuvent être amélioré dans le domaine de l'esthétisme et du design.
+
+			Questionnaire Bilan:
+
+Quel est le nom de l'inventeur "officiel" du téléphone fixe ?
+
+A qu'elle dateeu lieu l'officiellisation de son invention ?
+
+Qu'elle est la fonction d'un transducteur ?
+
+Quel est le rôle de l'opérateur ?
+
+Pourquoi peut on dire que le téléphone fixe est réellement né en Avril 1877 ?
+
+En qu'elle année les États-Unis et l'Europe sont-ils reliés ?
+
+Pourquoi n'était-ce pas possible avant ?
+
+
+
+Sources :
+http://fr.wikipedia.org/wiki/Antonio_Meucci
+http://telephoniste.free.fr/historique
+http://www.gralon.net/articles/photo-et-video/telephonie-et-portables/article-le-telephone-328.htm
+http://www.stielec.ac-aix-marseille.fr/cours/escolano/download/rtc.pdf
+http://www.dotapea.com/transducteur.htm
+
+Image :
+http://pagesperso-orange.fr/f5zv/RADIO/RM/RM07/RM07d/RM07d12a.JPG

@@ -1,0 +1,4 @@
+		<h2>.<span>Conclusion</span>.</h2>
+					<img src="images/images/_Téléfon.jpg" style="float:right; width: 220px;" />
+			<p>	Le téléphone fixe est une grande découverte historique qui est désormais considéré comme un élément de la vie quotidiens. Malgré l'amélioration du téléphone portable, le téléphone fixe est tout de même un objet très utilisé car il reste un objet pratique, moderne et simple d'utilisation, permettant ainsi à toute personne d'âges confondus de s'en servir. Les téléphones de nos jours sont, selon mon opinion personnel, à un stade où il ne peuvent plus se dévelloper d'avantages bien qu'ils peuvent être amélioré dans le domaine de l'esthétisme et du design.
+			</p>

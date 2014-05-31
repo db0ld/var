@@ -1,0 +1,101 @@
+/* Configuration générale. */
+
+body {
+	margin: 0;
+	font-family: verdana, Arial, serif;
+background: url('images/interface/fond.png');
+}
+
+#global {
+	width: 674px;
+	margin: 30px auto 0 auto;
+	background: url(images/interface/extensibilite.jpg) repeat-y;
+}
+
+/*Configuration du Header. */
+
+#header {
+	height: 208px;
+	background: url(images/interface/header.jpg) no-repeat;
+}
+
+#header h1 {
+	display: none;
+}
+
+/*Configuration du menu Header. */
+
+#header ul {
+	margin: 0;
+	padding: 75px 0 0 524px;
+	list-style-type: none;
+}
+
+li {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#header li a {
+	text-decoration: none;
+	color: #575454;
+}
+
+#header li a:hover {
+	border-bottom: 1px dotted #575454;
+}
+
+/*Configuration du contenu.*/
+
+#contenu h2 {
+	text-indent: 26px;
+	color: #3c600e;
+	font-size: 18px;
+	margin: 8px 0 8px 0;
+}
+
+#contenu h2 span {
+	color: #689fce;
+	font-size: 14px;
+}
+
+#contenu h3 {
+	text-indent: 30px;
+	font-size: 12px;
+	color: #3c600e;
+	margin: 8px 0 8px 0;
+}
+
+#contenu h3 span {
+	color: #689fce;
+}
+
+#contenu p {
+	font-size: 12px;
+	margin: 4px 24px 19px 24px;
+	text-indent: 18px;
+	white-space: normal;
+}
+
+/*Configuration Footer.*/
+#footer {
+	width: 674px;
+	height: 34px;
+	background: url(images/interface/footer.jpg) no-repeat;	
+}
+
+#footer p {
+	line-height: 30px;
+	font-size: 10px;
+	text-align: right;
+	margin: 0 17px 0 0;
+}
+
+#footer a {
+	color: #888;
+}
+
+#footer a:hover {
+	color: #565656;
+	text-decoration: none;
+}
