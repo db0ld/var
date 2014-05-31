@@ -1,0 +1,77 @@
+/* blabla truc pif pouf page principal */
+body{
+background: #ffffff url('images/interface/bg.jpg') repeat-x;
+font-family: Tahoma ;
+font-size: 11px;
+color: black;
+}
+
+img { /* Ne pas toucher */
+border: none; /* Ne pas toucher */
+font-size: 12px; /* Ne pas toucher */
+vertical-align: bottom; /* Ne pas toucher */
+}
+a { text-decoration: none; color: #aabbcc; }
+a:hover { text-decoration: underline; }
+p { text-indent: 15px; 
+ }
+.right { text-align: right; } /* Ne pas toucher */
+.center { text-align: center; } /* Ne pas toucher */
+.left { text-align: left; } /* Ne pas toucher */
+
+#main {
+margin: auto;
+padding: 10px;
+width: 830px;
+height: 515px;
+background: black;
+margin-top: 50px;
+}
+#header{
+width: 800px;
+height: 95px;
+background: #aabbcc url('images/interface/header.png') no-repeat;
+padding-top: 5px;
+color: white;
+text-align: center;
+padding-left: 30px;
+}
+#menu{
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 160px;
+height: 295px;
+background: #aabbcc url('images/interface/bg-menu.png') repeat-y; }
+#menu li{
+list-style-position: inside;
+list-style-type: none;
+font-size: 16px;
+border-bottom: 5px solid black;
+margin-left: -40px;
+text-align: center;
+padding: 3px; }
+#menu a { color: white;} #menu a:hover{ color: black; text-decoration: none; }
+#menu li:hover { background: url('images/interface/bg-menu2.png'); }
+#menu ul { margin-top: 0; }
+#page{
+margin-left: 170px;
+margin-top: 10px;
+width: 	650px;
+height: 285px;
+background: white;
+padding: 5px;
+overflow: auto;
+}
+#footer{
+margin-top: 10px;
+width: 830px;
+height: 60px;
+background: #aabbcc url('images/interface/bg-menu.png') repeat-y;
+text-align: center;
+padding-top: 40px;
+}
+#footer a { color: black; }
+#footer:hover {
+background: #ffffff;
+}

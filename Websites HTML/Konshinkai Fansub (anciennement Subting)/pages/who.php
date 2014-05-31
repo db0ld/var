@@ -1,0 +1,3 @@
+<img src="images/interface/who.png" style="float: right;" />
+<h3>Qui sommes-nous ?</h3>
+<p>Nous sommes membres et administrateurs d'une équipe de fansub vieille d'un an et demi. Nous sommes donc des fansubbeurs et nous conaissons le domaine. Cependant, nous préferons ne pas réveler nos pseudo et teams respectives. Nous sommes des personnes sérieuses et motivées, qui aiment se rencontrer, échanger, discuter, s'amuser ect et avons créer cet évennement uniquement dans ce but.</p>
