@@ -1,0 +1,54 @@
+body {
+background: #ffffff url('images/interface/bg.gif');
+font-family: "Arial Rounded MT Bold", Verdana;
+font-size: 16px;
+color: #5078a4;
+margin: auto;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+}
+img {
+border: none;
+font-size: 12px;
+vertical-align: bottom;
+}
+a {text-decoration: none; color: #000000 }
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+#main {
+background: url('images/interface/theme-google.png') no-repeat;
+margin: auto;
+margin-top: 20px;
+width: 1000px;
+height: 750px;
+}
+#menu {
+width: 265px;
+height: 620px;
+padding-top:100px;
+float: right;
+}
+#page-top { background: url('images/interface/page-haut.png') no-repeat; width: 650px; height:29px ; margin-left: 50px; opacity: 0.95; }
+#page-bottom { background: url('images/interface/page-bas.png') no-repeat; width: 650px; height:29px ; margin-left: 50px; opacity: 0.95;}
+#page {
+width:550px;
+height: 610px;
+padding-top:10px;
+padding-left: 50px;
+padding-right: 70px;
+background: url('images/interface/page-bg.png') repeat-y;
+margin-left: 50px;
+opacity: 0.95;
+overflow: auto;
+}
+
+#button { width:252px; height: 40px; background: url('images/interface/bouton0.png') no-repeat; margin:0;padding:5px; color:#5078a4; font-size: 25px; }
+#button:hover { background: url('images/interface/bouton1.png') no-repeat; color: #ffffff;}
+#button a { color:#5078a4; } 
+#button a:hover { color: #ffffff; }
+
+
+
+

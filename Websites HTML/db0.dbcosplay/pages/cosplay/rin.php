@@ -1,0 +1,41 @@
+﻿	<div id="page-top"></div>
+	<div id="page">
+	
+	<img src="http://images.cosplay.com/i/costumes/200/227088.jpg">
+<h1>Kokonoe Rin</h1>
+	
+<h2>Qui est ce personnage ?</h2>
+<p>Héroïne de la série "Kodomo no Jikan". Une série ecchi-pedobear à la fois drôle et attachante.</p>
+<h2>Pourquoi avoir fait ce costume ?</h2>
+<p>Ma série préférée !! Mon personnage préférée !! La femme de ma vie !!</p>
+<h2>Avis perso sur ce costume.</h2>
+<p>Je me vois toujours plus grosse que ce que je ne le suis, donc il me va un peu grand. Pour un costume fait en une semaine, je le trouve très réussi. J'avais peur pour les couettes, mais au final, elles sont bien comme ça.</p>
+<h2>Groupe/Solo ?</h2>
+<p>Porté une fois en solo pour Epitanime 2009, et en groupe pour Japan Expo 2009. Ce sera un costume qui se portera en groupe, avec figurants dans le rôle des deux autres filles. Interessé ? N'hésitez pas !</p>
+
+<h2><a href="http://www.cosplay.com/costume/227088/" target="_blank">Galerie de photos avec ce costume</a></h2>
+<a href="http://www.cosplay.com/photo/2181986/"><img src="http://images.cosplay.com/thumbs/21/2181986.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181985/"><img src="http://images.cosplay.com/thumbs/21/2181985.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181984/"><img src="http://images.cosplay.com/thumbs/21/2181984.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181983/"><img src="http://images.cosplay.com/thumbs/21/2181983.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181982/"><img src="http://images.cosplay.com/thumbs/21/2181982.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181981/"><img src="http://images.cosplay.com/thumbs/21/2181981.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181980/"><img src="http://images.cosplay.com/thumbs/21/2181980.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181979/"><img src="http://images.cosplay.com/thumbs/21/2181979.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181978/"><img src="http://images.cosplay.com/thumbs/21/2181978.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181977/"><img src="http://images.cosplay.com/thumbs/21/2181977.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181976/"><img src="http://images.cosplay.com/thumbs/21/2181976.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181975/"><img src="http://images.cosplay.com/thumbs/21/2181975.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181974/"><img src="http://images.cosplay.com/thumbs/21/2181974.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181973/"><img src="http://images.cosplay.com/thumbs/21/2181973.jpg"></a>
+<a href="http://www.cosplay.com/photo/2181972/"><img src="http://images.cosplay.com/thumbs/21/2181972.jpg"></a>
+<div>
+<a href="http://www.cosplay.com/photo/2062299/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062299.jpg"></a> <a href="http://www.cosplay.com/photo/2062300/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062300.jpg"></a> <a href="http://www.cosplay.com/photo/2062301/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062301.jpg"></a> <a href="http://www.cosplay.com/photo/2062309/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062309.jpg"></a> <a href="http://www.cosplay.com/photo/2062310/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062310.jpg"></a> <a href="http://www.cosplay.com/photo/2062311/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062311.jpg"></a> <a href="http://www.cosplay.com/photo/2062312/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062312.jpg"></a> <a href="http://www.cosplay.com/photo/2062313/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062313.jpg"></a> <a href="http://www.cosplay.com/photo/2062319/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062319.jpg"></a> <a href="http://www.cosplay.com/photo/2062327/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062327.jpg"></a> <a href="http://www.cosplay.com/photo/2062328/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062328.jpg"></a> <a href="http://www.cosplay.com/photo/2062329/" target="_blank"><img src="http://images.cosplay.com/thumbs/20/2062329.jpg"></a> <a href="http://www.cosplay.com/photo/2126505/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126505.jpg"></a> <a href="http://www.cosplay.com/photo/2126506/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126506.jpg"></a> <a href="http://www.cosplay.com/photo/2126507/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126507.jpg"></a> <a href="http://www.cosplay.com/photo/2126508/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126508.jpg"></a> <a href="http://www.cosplay.com/photo/2126509/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126509.jpg"></a> <a href="http://www.cosplay.com/photo/2126515/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126515.jpg"></a> <a href="http://www.cosplay.com/photo/2126516/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126516.jpg"></a> <a href="http://www.cosplay.com/photo/2126517/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126517.jpg"></a> <a href="http://www.cosplay.com/photo/2126518/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126518.jpg"></a> <a href="http://www.cosplay.com/photo/2126519/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126519.jpg"></a> <a href="http://www.cosplay.com/photo/2126520/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126520.jpg"></a> <a href="http://www.cosplay.com/photo/2126521/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126521.jpg"></a> <a href="http://www.cosplay.com/photo/2126522/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126522.jpg"></a> <a href="http://www.cosplay.com/photo/2126523/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126523.jpg"></a> <a href="http://www.cosplay.com/photo/2126524/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126524.jpg"></a> <a href="http://www.cosplay.com/photo/2126527/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126527.jpg"></a> <a href="http://www.cosplay.com/photo/2126528/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126528.jpg"></a> <a href="http://www.cosplay.com/photo/2126529/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126529.jpg"></a> <a href="http://www.cosplay.com/photo/2126530/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126530.jpg"></a> <a href="http://www.cosplay.com/photo/2126531/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126531.jpg"></a> <a href="http://www.cosplay.com/photo/2126533/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126533.jpg"></a> <a href="http://www.cosplay.com/photo/2126534/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126534.jpg"></a> <a href="http://www.cosplay.com/photo/2126535/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126535.jpg"></a> <a href="http://www.cosplay.com/photo/2126536/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126536.jpg"></a> <a href="http://www.cosplay.com/photo/2126537/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126537.jpg"></a> <a href="http://www.cosplay.com/photo/2126538/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126538.jpg"></a> <a href="http://www.cosplay.com/photo/2126539/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126539.jpg"></a> <a href="http://www.cosplay.com/photo/2126540/" target="_blank"><img src="http://images.cosplay.com/thumbs/21/2126540.jpg"></a> 
+
+
+<h2><a href="http://zero.com.1freebb.com/t92.htm" target="_blank">Commentaires/Laisser un commentaire</a></h2>
+
+<img src="images/chibi-cos/rin.png">
+
+	</div>
+	<div id="page-bottom"></div>
