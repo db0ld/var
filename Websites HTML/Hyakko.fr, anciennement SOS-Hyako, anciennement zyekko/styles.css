@@ -1,0 +1,118 @@
+/* couleurs
+#801600 : Texte principal
+#FF6600 : Liens, Nom du site, Fond menu, Police footer
+#DE6F00 : Fond du site, Titres
+#FEF5DB : Fond du contenu principal
+#452C01 : Fond sombre du nom du site et du footer
+#FEE2B2 : Fond clair pour code, formulaires et bas de tableaux
+*/
+
+/***************************
+	GENERAL
+ ***************************/
+body {margin:0; padding:0; height:100%; text-align:center;}
+
+/*	Typographies
+---------------------------*/
+body {font:66% Verdana, Helvetica, Arial, sans-serif; line-height:1.6em; background:#DE6F00 url(../images/body_fd.png) top repeat-x; color:#801600;}
+h1, h2, h3, h4, h5, h6 {margin:0.2em 0 .2em; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#DE6F00;}
+h1 {font-size:2.4em;}
+h2 {font-size:2.0em;}
+h3 {font-size:1.6em;}
+h4 {font-size:1.2em;}
+h5, h6 {font-size:1em;}
+p {margin-bottom:0.8em;}
+acronym {cursor:help; border-bottom:1px dotted;}
+code {display:block; margin:0 0 1em; padding:1em; font:0.9em "Courier New", Courier, monospace; border:1px dashed #801600; background:#FEE2B2;}
+blockquote {margin:1em 0; padding:0 0 0 40px; font-size:1em; font-style:italic; text-align:justify; background:url("../images/quotes.png") top left no-repeat;}
+blockquote p {margin:0; padding:0;}
+
+hr {margin:2em 0 0; border:0; height:1px; background-color:#801600; color:#801600;}
+
+a:link, a:active, a:visited {color:#FF6600;}
+a:hover {text-decoration:none; background:#FF6600; color:#FFF;}
+
+.center { text-align: center; width: 100%; }
+.left { text-align: left; width: 100%; }
+.right { text-align: right; width: 100%; }
+
+/*	Images
+---------------------------*/
+.img img {float:left; margin-right:10px; border:5px solid #FFF;}
+img {border: 0;}
+
+/*	Listes
+---------------------------*/
+ol, ul {margin:0 0 1em 1em; padding:0;}
+ul ul, ol ol {margin-bottom:0;}
+ul {list-style:square inside;}
+ol {list-style:decimal inside;}
+dl {margin:0 0 1em; padding:0;}
+	dt {font-weight:bold; color:#DE6F00;}
+	dd {margin:0 0 1em 2em;}
+
+/*	Tableaux
+---------------------------*/
+table {margin:1em 0; border:1px dashed #801600; border-collapse:collapse; font:1em Arial, Helvetica, sans-serif;}
+table th, table td {padding:1em; text-align:left;}
+table thead th {background:#452C01; color:#fff;}
+table tbody th {background-color:#801600; color:#FFF;}
+table tbody th, table tbody td {border:1px dashed #801600; border-width:1px 0;}
+table tfoot td {text-align:center; background:#FEE2B2;}
+
+/*	Formulaires
+---------------------------*/
+form {padding:0; margin:1.5em 0; border:1px dashed #801600; width:400px; background:#FEE2B2;}
+form fieldset {border:0; padding:1em; margin:0;}
+form fieldset legend {padding:0.4em; width:auto; background:#801600; color:#FFF;}
+form p label {float:left; display:block; margin-right:10px; width:30%; font-family:Georgia, "Times New Roman", Times, serif; font-size:1.2em;}
+form p input,
+form p select,
+form p textarea {padding:0.5em; border:1px dashed #801600; width:60%; font:1em Tahoma, Arial, Helvetica, sans-serif; background-color:#fff; color:#FF6600;}
+form p select {width:63.5%;}
+form ul {margin:0 0 0 33%; padding:0; list-style-type:none; color:#FF6600;}
+form ul li {padding:0 30px 5px 0; white-space:nowrap;}
+form input.bouton {padding:0.4em 0.5em; border:0; width:auto; overflow:visible; cursor:pointer; font-size:1.3em; background:#FF6600; color:#fff;}
+
+/***************************
+	MISE EN PAGE
+ ***************************/
+/*	.classes
+---------------------------*/
+.date {margin:0}
+
+/*	#div
+---------------------------*/
+div#site {position:absolute; left:50%; top:50%; margin-top:-230px; margin-left:-320px; width:640px; height:460px;
+text-align:left; background:#fff url("../images/fond.jpg") 10px 10px no-repeat;}
+	div#header {}
+	div#menu {position:absolute; top:60px; left:-30px; border:10px solid #FFF; width:110px; background:#FF6600;}
+	div#contenu {float:right; border:10px solid #fff; border-width:10px 10px 0 0; width:440px; height:440px; background:#FEF5DB;}
+		div#texte {margin-top:40px; padding:0 10px; width:420px; height:380px; overflow:auto; text-align:justify;}
+	div#footer {position:absolute; bottom:-20px; right:-20px; border:10px solid #FFF; width:auto; background:#452C01;}
+#pub { border:10px solid #fff; float: right;position:absolute; width: 120px; height: 600px;left:50%; top:50%; margin-top:-300px; margin-left:280px;}
+
+/*	HEADER
+---------------------------*/
+div#header h1 {position:absolute; top:-20px; left:-40px; margin:0; padding:0.4em; padding-bottom:0.5em; border:10px solid #FFF; background:#452C01; color:#FFF;}
+div#header h1 a:link, h1 a:visited, h1 a:active {text-decoration:none; color:#FFF;}
+div#header h1 a:hover {background:none;}
+div#header h1 span {color:#FF6600;}
+
+/*	MENU
+---------------------------*/
+div#menu ul {margin:0; padding:0; list-style:none; text-align:right;}
+div#menu ul li {border-bottom:1px solid #FFF;}
+div#menu ul li a {display:block; padding:5px; margin:0; font:1em Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; color:#FFF;}
+div#menu ul li a:hover {background:#452C01;}
+
+/*	TEXTE
+---------------------------*/
+div#texte p {padding:0;}
+
+/*	FOOTER
+---------------------------*/
+div#footer ul {margin:0; padding:0; list-style:none; text-align:right; color:#FF6600;}
+div#footer ul li {display:inline; padding:5px; border-left:1px solid #FFF;}
+div#footer li a {text-decoration:none; color:#ffffff;}
+div#footer li a:hover {color:#FFF;}
