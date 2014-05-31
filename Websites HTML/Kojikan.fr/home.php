@@ -1,0 +1,19 @@
+	<div id="pagecontent">
+<img src="images/interface/titres/accueil.png">
+
+<div id="article-haut"></div>
+<div id="article-image"><img src="images/image.png"></div>
+<div id="article">
+		<div id="article-text-haut"></div>
+		<div id="article-text">
+		
+		<div class="title">Titre d'article</div>
+		
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam vehicula pulvinar nisl. Ut tellus dolor, venenatis ut, vestibulum in, mollis et, odio. Sed facilisis malesuada augue. Quisque velit. Sed condimentum justo id quam. Aliquam erat volutpat. Aenean quis arcu quis mauris venenatis viverra. Donec non eros nec purus facilisis eleifend. Nunc ligula ipsum, lobortis a, ultricies nec, ultricies a, ligula. Aliquam vulputate metus non nisi luctus aliquet. Nulla.
+		
+		</div>
+		<div id="article-text-bas"></div>
+</div>
+<div id="article-bas"></div>
+	</div>

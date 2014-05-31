@@ -1,0 +1,141 @@
+body {
+background: #ffffff url('images/interface/bg.jpg') repeat-x;
+font-family: Tahoma;
+font-size: 12px;
+color: rgb(234, 120, 17);
+margin: auto;
+margin-top:0;
+margin-bottom: 0px;
+}
+
+
+
+#main {
+margin: auto;
+padding: 0;
+width: 1057px;
+min-height: 100%;
+background: url('images/interface/bg1.png') repeat-y;
+}
+
+
+
+#header {
+background: url('images/interface/header.png') no-repeat;
+width: 1059px;
+height: 249px;
+}
+#footer {
+background: url('images/interface/footer.png') no-repeat;
+width: 1059px;
+height: 40px;
+}
+
+#pub {
+padding-top: 140px;
+padding-left: 240px;
+}
+
+
+
+
+#content {
+min-height: 680px;
+}
+#pagecontent {
+margin-left: 218px;
+padding-left: 8px;
+}
+#article-haut {
+background: url('images/interface/contentbg1.png') no-repeat;
+width: 816px;
+height: 15px;
+}
+#article {
+background: url('images/interface/contentbg2.png') repeat-y;
+width: 816px;
+}
+#article-text-haut {
+background: url('images/interface/content-textbg1.png') repeat-y;
+width: 549px;
+height: 15px;
+margin-left: 10px;
+}
+#article-text {
+background: url('images/interface/content-textbg2.png') repeat-y;
+width: 549px;
+margin-left: 10px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+#article-text-bas{
+background: url('images/interface/content-textbg3.png') repeat-y;
+width: 549px;
+height: 15px;
+margin-left: 10px;
+}
+#article-image {
+float: right;
+padding-right: 25px;
+}
+#article-bas {
+background: url('images/interface/contentbg3.png') no-repeat;
+width: 816px;
+height: 15px;
+}
+
+
+
+#menu {
+float: left;
+background: url('images/interface/legs.png') no-repeat;
+width: 218px;
+min-height: 800px;
+}
+#menu-haut {
+text-align: center;
+background: url('images/interface/menu/menubg1.png') no-repeat;
+margin-left: 13px;
+width: 205px;
+height: 13px;
+}
+#menu-content {
+text-align: center;
+background: url('images/interface/menu/menubg2.png') repeat-y;
+margin-left: 13px;
+width: 205px;
+color: #ffffff;
+font-size: 16px;
+font-family:  Tahoma;
+}
+#menu-bas {
+text-align: center;
+background: url('images/interface/menu/menubg3.png') no-repeat;
+margin-left: 13px;
+width: 205px;
+height: 13px;
+}
+
+
+
+
+
+.title {
+font-size: 20px;
+font-weight: normal;
+text-indent: 20px;
+}
+
+#menu a {
+text-decoration: none;
+color: #ffffff;
+}
+#pagecontent a {
+text-decoration: none;
+color: #FFCC00;
+}
+
+a:hover {
+font-weight: bold;
+}
