@@ -1,0 +1,88 @@
+body {
+background: #000000 url('images/interface/bg.png');
+font-family: Tahoma;
+font-size: 12px;
+color: #000000;
+margin: auto;
+margin-top: 0;
+margin-bottom: 0;
+}
+img {
+border: none;
+font-size: 12px;
+vertical-align: bottom;
+}
+#header-1 {
+width: 100%;
+height: 196px;
+background: url('images/interface/bg-header.png') repeat-x;
+}
+#header-2 {
+width: 700px;
+height: 35px;
+background: url('images/interface/header.png') no-repeat;
+margin: auto;
+padding-top:166px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#footer {
+background: url('images/interface/bg-footer.png') repeat-x;
+width:100%;
+height: 40px;
+padding-top:45px;
+text-align: center;
+}
+#footer a{
+color: rgb(253,103,34);
+}
+#main {
+margin: auto;
+width: 700px;
+background: url('images/interface/bg-main.png') repeat-y;
+padding: 20px;
+min-height:100%;
+}
+#boutons {
+height: 23px;
+background: #000000;
+padding: 6px ;
+font-weight: bold;
+text-align: center;
+font-size: 16px;
+}
+#boutons a {
+text-decoration: none;
+color: rgb(253,103,34);
+}
+#boutons a:hover {
+text-decoration: underline overline;
+}
+#sous-boutons{
+color: rgb(253,103,34);
+text-indent:100px;
+font-size: 16px;
+font-weight: bold;
+}
+#sous-boutons a {
+text-decoration: none;
+color: rgb(253,103,34);
+}
+#sous-boutons a:hover {
+text-decoration: underline overline;
+}
+table {
+border-color: rgb(0, 0, 63);
+text-align: left;
+background-color: rgb(253,103,34);
+width: 100%;
+}
+td {padding: 5px; color #ffffff;}
+
+
+a {text-decoration: none; color: #000000 }
+.waw { font-size: 30px; color: rgb(253,103,34); text-align: center; width: 100% }
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+acronym { text-decoration: none; }
