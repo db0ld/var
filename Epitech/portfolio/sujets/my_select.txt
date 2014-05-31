@@ -1,0 +1,101 @@
+ ********************************************************
+**
+**
+** MiniProj 5 - C-Unix - Tech 1
+**
+**
+********************************************************
+
+my_select
+=========
+
+Repertoire de rendu: ~/rendu/c/my_select/
+
+Ecrire un programme "my_select" qui prend en parametre une serie
+d'arguments. La liste d'arguments s'affiche. L'utilisateur peut
+alors se deplacer dans la liste des arguments a l'aide des fleches.
+(la liste est circulaire) Un ou plusieurs choix peuvent etre
+selectionnes ou deselectionnes a l'aide de la touche espace. A
+chaque selection effectuee, le curseur doit se positionner sur
+l'element suivant automatiquement. Des que l'utilisateur valide la
+selection a l'aide de la touche entree, la liste des choix doit etre
+renvoyee au shell. Les choix renvoyes devront etre separes par le
+caractere espace. Ceci permettra alors d'utiliser votre programme
+my_select a l'interieur d'un script shell (pour faire un 'set', par
+exemple).
+
+
+On doit pouvoir ecrire les commande suivantes :
+
+$> set reponse = `my_select choix1 choix2 choix3 choix4`
+
+$> more `my_select *.c`
+
+$> rm `my_select ~/*` NB: N'utilisez cette commande QUE si
+vous etes sur que votre my_select
+fonctionne. Nous degageons toute
+responsabilite en cas de bug de
+votre my_select...
+
+$> ls `my_select /u/ept1/*` > liste
+
+Vous devrez gerer aussi le redimensionnement de la fenetre par
+l'utilisateur. La liste doit s'afficher sur plusieurs colonnes si
+la taille de la fenetre ne comporte pas assez de lignes pour tout
+afficher en une seule colonne. Si l'utilisateur redimensionne la
+fenetre en cours d'utilisation, l'ensemble des choix doivent se repo-
+sitionner automatiquement. Si la fenetre est trop petite pour tout
+afficher, alors on affiche un message indiquant que l'utilisateur
+doit agrandir la fenetre.
+
+Si l'utilisateur appuie sur la touche d'echappement, le programme
+ne doit rien revoyer au shell.
+
+Si l'utilisateur appuie sur la touche DELETE ou BACKSPACE,
+l'element sur lequel pointe le curseur doit etre efface de la liste.
+S'il n'y a plus d'element dans la liste, on quitte.
+
+Le programme doit fonctionne sur ALPHA SUN et PC.
+
+choix non selectionne : texte normal
+choix selectionne : texte video inverse
+position curseur : texte souligne
+
+
+BONUS :
+1) Les choix defilent de gauche a droite en fonction de la
+position du curseur quand la fenetre est trop petite.
+2) Une belle interface (c'est l'ASTEK qui juge et pas vous).
+
+SUPER BONUS :
+
+1) Positionnement du curseur, lorsqu'on tape une sequence de
+caracteres a un element matcheant la sequence.
+exemple : ./myselect abc toto sgueg
+
+abc
+---
+toto42
+sgueg
+
+je tape "sg" :
+
+abc
+toto42
+sgueg
+-----
+
+INTERDIT :
+
+tcsetattr() et tcgetattr()
+
+FONCTIONS AUTORISEES :
+
+ioctl() fcntl() tgetent() tgoto() tputs() tgetstr() signal()
+
+MAN UTILES :
+
+Ceux des fonctions ci-dessus, termcap(5), termios(4)
+
+
+######## That's all folks ##########

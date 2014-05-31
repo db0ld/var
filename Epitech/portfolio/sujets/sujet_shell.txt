@@ -1,0 +1,172 @@
+#        #####
+#    #  #     #   ####   #    #
+#    #        #  #       #    #
+#    #   #####    ####   ######
+####### #             #  #    #
+     #  #        #    #  #    #
+     #  #######   ####   #    #
+                       la vie l'univers et le reste, surtout le reste.
+
+
+1) Détails administratifs :
+
+ - Vous pouvez utiliser l'ensemble de la librairie standard.
+   (les libs gnus ne sont pas standards)
+ - Le projet devra se trouver (un et un seul par groupe) dans
+   ${HOME}/rendu/c/proj/42sh/
+ - tout ce dont vous avez besoin doit se trouver dans le répertoire
+   de rendu et ses sous-répertoires (rien ailleurs, même avec les droits
+   et des paths absolus).
+ - les questions sont à poser sur epitech.projs.ept1.42sh
+   les réponses de Yannick Plassiard seront considérées comme officielles.
+ - L'ensemble du groupe devra être présent à la soutenance.
+ - Vous pouvez (c'est même plutôt une bonne idée) travailler à
+   plusieurs groupes et confronter vos résultats. Par contre, chaque
+   groupe doit avoir une implémentation qui lui est propre.
+ - Vous pouvez vous répartir les points comme vous le voulez; mais
+   cette répartition doit être donnée au début de la soutenance et
+   avoir l'accord de tous.
+ - il doit y avoir un fichier auteur avec un login (et que ça) par ligne.
+ - chaque membre du groupe doit pouvoir expliquer le fonctionnement général
+   et les structures de l'ensemble, les structures utilisées, et ce que fait
+   chaque partie. Il doit aussi être capable de montrer ce qu'il a fait
+   lui-même et pouvoir le modifier ou le refaire à la soutenance.
+ - Vous pouvez exclure des personnes du groupe jusqu'à 2 mois du rendu. Après
+   c'est plus possible. Il faut pour ça que la majorité du groupe soit
+   d'accord.
+ - Vous n'êtes pas obligé d'avoir un chef de groupe mais on vous le conseille
+   fortement.
+
+2) Description du projet:
+
+ - Il s'agit d'écrire un SHELL.
+ - Il se décompose en 2 parties décrites ci-après:
+
+      - Une partie obligatoire
+            qui est à faire absolument, notée sur 8 points
+
+      - Une partie optionelle
+            qui ne peut être faite que si la partie obligatoire
+            fonctionne complètement.
+
+ - la stabilité et l'utisabilité de l'ensemble sera largement
+ prise en compte. Il serait souhaitable d'être conforme aux
+ usages et habitudes.
+
+
+3) Partie obligatoire :
+
+  Cette partie doit ABSOLUMENT MARCHER COMPLETEMENT et être PARFAITEMENT
+  STABLE avant que vous fassiez quoi que ce soit d'autre, sinon ce sera 0.
+
+ - Une acquisition de ligne minimale :
+   - affichage d'un prompt (plus ou moins élaboré)
+   - récupération de la ligne tapée (un get_next_line(0) devrait suffir)
+
+ - Exécution des commandes avec leurs paramètres (ex: $ls -l / )
+   - gestion correcte des espaces et TABs
+   - gestion du PATH (pas forcément de système de cache)
+   - gestion des erreurs et de la valeur de retour
+     ex: $./str_maxlenoxc "ddd" "dd" "who"
+          segmentation fault (core dumped)
+         $
+
+ - les redirections :
+   ex: $</etc/hosts od -c | grep xx | wc >> /tmp/z -l
+
+   - < > >>
+   - les pipes
+
+ - builtins:
+   - cd  (avec cd seul et cd -)
+   - echo
+   - exit
+
+ - les séparateurs :
+   - ;
+   - &&
+   - ||
+
+
+ex: $cd /tmp;ls -l > /tmp/xx < /dev/null |echo * ;sleep 100& who;ls || who && pwd ; echo test
+
+
+4) Partie optionelle :
+
+  C'est sur cette partie que vous gagnerez (normalement) la majorité des
+ points. Elle est globalement libre. Vous pouvez faire ce que vous voulez.
+ Mais  la cohérence de l'ensemble sera prise en compte. Encore une fois la
+ stabilité sera beaucoup plus importante que la quantité. Ne mettez pas une
+ option qui pose un problème au reste et surtout à la partie obligatoire.
+ Pensez surtout à l'utilisabilité.
+
+ - Liste d'options souhaitables:
+
+  - les inhibiteurs (" ' \ )
+    ex: $ls "who|'"  '"'"slt\""
+  - le globing * ? [ ] { }
+    ex: $echo {a*[^c],b??.*[a-z]}/b*.{c,h}
+  - le background
+    ex: $sleep 100 &
+  - les `
+    ex: $kill -9 `ps ax | grep netscape | awk '{print $1}'`
+  - les ()
+    ex: $(cut -d\  -f2 .note | tr '\n' +;echo 0)| bc -l
+  - les variables (local et d'env).
+    ex: $set a=val;echo $a;ls $a;$a
+    - variables spéciales : term,precmd,cwdcmd,cwd,ignoreof ...
+  - history
+      ex: $history
+      - avec !
+      ex: $!ls
+      ex: $!12
+      ex: $!-4
+      - avec ! et modificateur
+      ex: $!ls:s/.c/.h
+      - linker avec l'édition de ligne
+  - alias
+  - édition de ligne:
+    - multi ligne
+    - avec rebinding dynamique
+    - complétion dynamique (fichier, commande, contextuel ....)
+  - job control (très très apprecié)
+  - scripting (très long)
+
+
+
+4) Conseils.
+
+  Formez un groupe solide : vérifiez que vous pouvez vraiment travailler
+ ensemble (heures, temps, caractères). Travaillez  vraiment  en  groupe
+ (ensemble  et en discutant). Passez  beaucoup de temps à analyser les
+ choses à tous les  niveaux.  Vérifiez que vous avez bien compris et que
+ les autres membres de votre groupe ont compris la même chose. Parlez en
+ avec d'autres groupes. Ne codez rien avant que tout soit clair. Ne
+ codez rien avoir d'avoir tous vos minishells qui marchent complètement
+ pour tous les  membres du groupe. Je vous conseille même de les refaire
+ complètement en groupe, histoire de voir comment vous codez ensemble.
+ Faites des scénarios complets de fonctionnement de votre shell. Faites
+ vous des jeux de test pour tout ce que vous comptez coder. Cherchez tous 
+ les cas de figures (on les trouvera à la soutenance). Confrontez
+ vos listes de cas avec les autres groupes. Faites une liste claire des
+ options que vous voulez faire en séparant bien les étapes. Faites un
+ plan général sur papier avant d'écrire la première ligne.
+
+  Quand  vous aurez commencé à écrire, testez tout au fur et à mesure.  
+  N'hésitez pas à effacer des parties qui vous semblent louches. 
+  Ne faites rien que vous ne compreniez complètement. Si vous développez en morceaux (ce qui
+ à  mon avis n'est  pas une bonne chose au  début, vous  devriez coder
+ complètement  ensemble la  partie  obligatoire  et la tester  ensemble)
+ Assemblez très souvent (1 à 2 fois par sem) et codez à côté les uns des
+ autres.
+
+  Quand ça  marchera, faites le tester par d'autres groupes. Puis quand
+ ça  marchera, faites le tester à un tek2 ou tek3.  Quand  ça marchera.
+ Faites le tester à un astek (si vous en avez). Quand ça marchera faites
+ le tester à votre prof.
+ Quand ça marchera (si ça arrive) faites le tester à votre directeur de site.
+ Il ne devrait pas y avoir de suite :-)
+
+
+
+
