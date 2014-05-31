@@ -1,0 +1,109 @@
+[size=16][b]Tutorial After Effects – Les bases[/b][/size]
+
+[size=12]Ce tuto est là pour donner des conseils et aider les gens à apprendre les bases d’AE dans le cadre de l’édition d’animes. Ce n’est en aucun cas un descriptif exhaustif des fonctionnalités de ce logiciel.[/size]
+
+[size=16][b][u]Compétences nécessaires[/u][/b][/size]
+
+[size=12]- savoir se servir d'un PC et avoir de la place sous son disque dur ^^[/size]
+[size=12]- avoir de la volonté, du goût (esthétisme) et si possible être astucieux (logique)[/size]
+[size=12]- si possible (très conseillé), avoir déjà utilisé Photoshop ou un logiciel d'édition d'images évolué (pas MS Paint par exemple ^^).[/size]
+[size=12]- si possible, avoir les connaissances de base en matière d'encodage vidéo[/size]
+[size=12]- installer After Effects CS3 ou CS4 ou CS5 et Photoshop CS3 ou CS4 ou CS5 qu'Adobe (voir ci-dessous) propose en téléchargement (période d'essai), pour le reste je vous laisse faire (pensez à aller voir du côté du fichier hosts de Windows)...[/size]
+[size=12]- rechercher la perfection (au moins la rechercher) à chaque édit (si c’est pour faire des édits bof, l’ASS suffit amplement)[/size]
+
+[size=16][b][u]Liens de téléchargement officiels[/u][/b][/size]
+
+[size=12]- version CS5 (nécessite un OS 64 bits) : [/size][url=http://www.adobe.com/fr/downloads/][size=12]http://www.adobe.com/fr/downloads/[/size][/url][size=12] cliquez sur "essayer" et vous pourrez télécharger gratuitement AE ou PS ou même la Master Collection (= toute la suite adobe) ou encore la Créative Suite 5 Production Premium (contient notamment Première Pro, Photoshop, AE...) [/size]
+[size=12]- version CS3 ou CS4 : [/size][url=http://trials.adobe.com/Applications/AfterEffects/CS3/Win/ADBEAFETCS3_ALP.exe][size=12]http://trials.adobe.com/Applications/AfterEffects/CS3/Win/ADBEAFETCS3_ALP.exe[/size][/url][size=12] (pensez à autoriser l'installation de l'active X)[/size]
+
+[size=16][b][u]Description (en grande partie issue de Wikipedia)[/u][/b][/size]
+
+[size=12]After Effects (a.k.a. AE ou AFx) est un logiciel de compositing édité par Adobe. Il permet de créer des effets spéciaux et des animations graphiques pour tous supports à partir de n’importe quel types de sources. Neuf versions sont déjà sorties, la plus récente étant Adobe After Effects CS5 (v10).[/size]
+
+[size=12]Contrairement à un logiciel de montage, After Effects ne propose pas de visualisation en temps réel. Chaque phase de prévisualisation est précédée d'une phase de calcul en RAM. Un logiciel de montage travaille à l'horizontal. Son objectif est de se concentrer sur l'enchaînement des plans et le rythme. Il possède des pistes vidéo en nombre limité dans lesquelles viennent se placer les rushes les uns à la suite des autres. L'objectif d'After Effects est de permettre l'empilement des sources les unes au-dessus des autres, avec une piste de calque par source et sans limitation du nombre de piste. Quand un logiciel de montage est à l'aise à horizontal, il l'est beaucoup moins en empilement vertical : c'est exactement le contraire d'After Effects qui sera sans limite de puissance pour le montage à la verticale mais peu pratique à utiliser pour le montage classique à l'horizontale, lequel exigera un temps de calcul du rendu final.[/size]
+
+[size=12]Par conséquent, AE n'est pas très pratique en montage vidéo pur, mais se révèle très "simple" d'utilisation pour l'édition de vidéo, comprenez par là, ajout d'effets et modification de la vidéo.[/size]
+
+[size=12]After Effects utilise un système d'empilement de calque pour créer une composition animée à partir de différentes sources d'images. On retrouve ce principe d'empilement de calque dans la majorité des logiciels de créations graphiques. Par cet aspect, il est très proche de Photoshop, mais propose en outre des modifications des calques animables dans le temps, et en mode non destructif. On qualifie ce mode de fonctionnement de « non destructif » car le fichier de projet créé dans After Effects ne contient que les informations de traitement des sources, sans aucune altération de celles-ci. Pour calculer l'animation finale, il faut donc disposer d'une part du fichier de projet After Effects, d'autre part des sources intactes (images fixes ou métrage vidéo). On peut aussi réaliser des créations directement dans After Effects, sans sources préexistantes. Dans ce cas le fichier projet se suffit à lui-même. Dans tous les cas, pour obtenir le résultat final, et produire un nouveau fichier vidéo par exemple, il faut passer par une phase de calcul d'une durée variable selon la complexité de la création.[/size]
+
+[size=12]Les principaux outils proposés sont :[/size]
+[size=12]- Des outils de masque, de texte et de peinture vectoriels.[/size]
+[size=12]- La fenêtre montage est un empilement de calques, à la manière de Photoshop, dont on peut faire évoluer les paramètres en fonction du temps et des autres calques. Pour ce faire, il suffit en général de faire glisser un effet de la palette d'effet sur le calque désiré et de modifier les réglages en développant les onglets.[/size]
+[size=12]- La palette d'effets est une bibliothèque d'effets fournis avec le logiciel ou ajoutés en plug-ins.[/size]
+[size=12]- La fenêtre de composition, donne un aperçu du résultat. La prévisualisation de l'animation se fait après un calcul en RAM de la zone de travail. Il est possible d'ouvrir d'autres fenêtres pour avoir d'autres vues lors d'un travail en 3D. Pour accélérer le calcul, il est souvent nécessaire de baisser la qualité d'affichage en résolution, en cadence d'images voire de masquer certains calques.[/size]
+
+[size=12]Dans ses dernières versions AE est plus efficace et propose plus de nouveaux outils, toutefois AE CS5 est utilisable uniquement sur un PC avec un Windows en 64bits, donc tournez-vous vers AE CS3 (à la rigueur CS4 mais je préfère CS3) pour un PC 32 bits.[/size]
+
+[size=16][b][u]Les bases du fonctionnement d’AE[/u][/b][/size]
+
+[size=12]AE s’organise autour d’une timeline (ou zone de montage), ou vous pouvez mettre des vidéos et images pour les modifier, les animer, les combiner, etc…[/size]
+[size=12]L'interface n'est pas très complexe mais est néanmoins très riche et recèle pas mal de trésors cachés. Pensez à aller voir dans le menu Fenêtre pour activer ou désactiver certains panneaux d’outils, et à farfouiller un peu partout : sous AE, la curiosité n’est pas un défaut, du moment que vous pensez à sauvegarder régulièrement votre projet ^^.[/size]
+
+[size=12]En l’occurrence, les panneaux les quatre panneaux les plus utiles pour nous sont :[/size]
+[size=12]-          Caractère (pour tout ce qui est texte – va de paire avec le panneau paragraphe)[/size]
+[size=12]-          Contôles de suivi (pour reproduire une animation simple)[/size]
+[size=12]-          Outils (la barre de tous les outils utiles en haut ^^)[/size]
+[size=12]-          Paragraphe (pour l’orientation et justification des textes)[/size]
+
+[size=12]Les autres vous serviront aussi, mais plus occasionnellement. Naturellement, j’exclus les panneaux principaux (ceux listés en bas du menu Fenêtre) car ceux-là sont fondamentaux. Si par erreur vous en désactivez un, allez le réactiver dans le menu fenêtre.[/size]
+
+[size=12]Enfin, allez régler les préférences d’AE. Voici 3 paramètres qui vous feront gagner du temps, dans le menu Préférences :[/size]
+[size=12]-          Rubrique Généralités : désactiver la création des calques au début de la composition (de sorte à les créer à l’endroit où votre curseur se trouvera sur la timeline)[/size]
+[size=12]-          Rubrique Affichage : activer l’accélération matérielle (sur un bon PC, donne un sacré boost)[/size]
+[size=12]-          Rubrique Importation : régler la longueur de création par défaut à quelques secondes (1 à 3 secondes suffisent pour les animes)[/size]
+
+[size=12]After Effects propose une telle variété d’outils et de fonctionnalités qu’il est presque impossible de tout décrire, surtout par écrit. Je vous conseille donc, pour apprendre le maniement des bases d’AE, d’aller voir ces tutoriaux vidéos que j’affectionne particulièrement :[/size]
+[url=http://www.videocopilot.net/basic/][size=12]http://www.videocopilot.net/basic/[size=12][/size][/size][/url]
+[size=12][/size]
+[size=12]Ces tutos vous apprendront les bases du fonctionnement d’AE, et ce que vous en apprendrez au niveau des outils et des raccourcis pourra vous servir pour l’édition d’animes. Il faudrait plusieurs dizaines de pages pour couvrir le contenu de ces quelques vidéos. Pensez à vous servir des raccourcis clavier qu’elles vous apprendront, vous gagnerez beaucoup de temps.[/size]
+
+[size=12]Pour les débutants, il est facile de prendre en main les bases du logiciel : ajout de couches (images, vidéo), animations simples, application d'effets bruts, etc...[/size]
+
+[size=12]Le reste s'acquiert au fur et à mesure, et il y a pas mal de recherche personnelle, d'astuces et de logique derrière tout ça. Les tutoriels (comme ceux cités précedemment) sont le net sont nombreux et sont la source la plus vaste d'informations et la plus explicite pour maîtriser progressivement AE. Le Repaire et le Site du Zéro sont deux des gros sites sur PS/AE, donc n’hésitez pas à y faire un tour.[/size]
+[size=12]N'espérez pas vous servir de ce logiciel comme un dieu du jour au lendemain, par contre  ;)  L’expérience est la clé.[/size]
+
+[size=16][b][u]Quelques conseils méthodologiques :[/u][/b][/size]
+
+[size=16][b][i]AE et PS, les deux frères d’armes[/i][/b][/size]
+
+[size=12]Du fait de la similitude de fonctionnement entre AE avec Photoshop (alias PS), de nombreux raccourcis/fonctions sont communs et AE pouvant travailler directement avec les fichiers PSD de Photoshop, les 2 logiciels se complètent : Photoshop pour la modification d'images avancée, AE pour animer les images modifiées et ajouter les effets.[/size]
+[size=12]Bref, n'hésitez pas à utiliser des fichiers PSD de Photoshop comme images ou métrages dans AE, vous pouvez ainsi gagner un temps précieux tout en conservant l'aspect "sans perte" et modifiable (en utilisant Photoshop correctement évidemment, grâce au système de calque et de filtres dynamiques très performants) à volonté d'AE.[/size]
+
+[size=12]Ceci s'avère très utilise dans le cas particulier de l'édition d'animes car vous ne partez pas de rien.[/size]
+[size=12]D'ailleurs, vous aurez souvent plusieurs possibilités pour arriver au même résultat en utilisant AE+PS.[/size]
+[size=12]Imaginez que vous voulez remplacer un texte en jap sur un panneau en mouvement dont le fond est en dégradé. En ASS, vous ne pourrez pas facilement reproduire le dégradé, surtout si celui-ci n'est pas parfaitement vertical ou horizontal.[/size]
+[size=12]Plusieurs choix s'offrent à vous :[/size]
+[size=12]- se baser surtout sur Photoshop : modifier une image de la vidéo brute sous Photoshop, supprimer/camoufler le japonais, puis mettre le texte en français (toujours sous PS), et enfin importer l'image sous AE et animer le panneau à partir de l'image modifiée.[/size]
+[size=12]- se baser surtout sur AE : camoufler le panneau par une forme avec un dégradé sous AE, ajouter la couche de texte sous AE, et animer le tout sous AE[/size]
+[size=12]- utiliser PS pour supprimer le japonais et AE pour le reste : camoufler le japonais/panneau sous PS, ajouter la couche de texte sous AE, et animer le tout sous AE en utilsant des calques parents.[/size]
+
+[size=12]Ces choix ont chacun leurs avantages et inconvénients. Le plus pratique est souvent de modifier les arrière-plans (les endroits contenant le japonais que l'on souhaite éliminer) sous PS, et d'ajouter les textes puis d'animer le tout sous AE, AE ne permettant pas des modifications d'images aussi fines que PS sans prise de tête.[/size]
+
+[size=12]Naturellement, si vous voulez vraiment créer des animations à partir de rien, cette approche est moins adaptée, mais c'est celle que je vous conseille pour réaliser des éditions simples sur des épisodes d'animes voire des films/dramas.[/size]
+
+[size=12]Enfin, n’hésitez pas à vous servir des précompositions, si vous avez trop de choses à animer simultanément (ou trop complexes), car les calques parents sont limités.[/size]
+
+[size=16][b][i]Le cas des zooms et rotations : notion de point d’effet et de point de fuite[/i][/b][/size]
+
+[size=12]Dans les animes, il y a beaucoup de zooms et de rotations d’images. Il est fréquent qu’un panneau à éditer soit au cœur d’un zoom et/ou d’une rotation. Dans ce cas, je conseille de [b]TOUJOURS[/b] partir d’une image de la vidéo de départ que l’on modifiera puis réanimera avec un masque de sorte à introduire uniquement le panneau/zone éditée.[/size]
+
+[size=12]Il est important de comprendre que dans 90% des cas, un zoom ou une rotation prend source en un seul point, fixe dans le temps, qui peut être n’importe où dans l’image ou même en dehors de l’image : c’est le point d’effet. Ce cas est simple à traiter en théorie : on reproduit l’animation à partir de ce point. Mais l’amplitude de l’angle ou du zoom est souvent inconnue, et les coordonnées exactes du point d’effet aussi[/size]
+
+[size=12]Souvent, les personnes qui débutent n’ont pas conscience de cela. [/size][size=12]Du coup, il faudra ajouter un décalage de position : en effet, si un zoom est appliqué en un point d’effet différent de l’image originale, il faudra décaler (de manière non linéaire dans le temps) l’image pour conserver la superposition avec l’image de départ, ce qui prendra un temps fou la plupart du temps, et donnera souvent des résultats très moyens. On peut aussi essayer le suivi de mouvement, mais le résultat n’est pas toujours probant.[/size]
+
+[size=12]Mais le point d’effet peut être déterminé, par une méthode manuelle. En effet, le point d’effet est souvent visible car il correspond au point de fuite du zoom ou de la rotation, c'est-à-dire le seul endroit de l’image qui ne bouge pas (en position). Une méthode simple consiste à tracer des droites, à partir de la position de deux points de l’image dans le temps : on suit le mouvement de deux détails A et B de l’image dans le temps :[/size]
+[size=12]-          soit A1 et B1 les positions des détails A et B à t1[/size]
+[size=12]-          soit A2 et B2 les positions des détails A et B à t2[/size]
+[size=12]Alors les droites (A1;A2) et (B1;B2) se coupent au point d’effet du zoom. Certes la précision n’est pas idéale, mais vous aurez ainsi une bonne estimation pour affiner la position du point d’effet. Pour ceux qui ont CS5 (ou CS4), j'ai créé un preset qui permet de calculer le point d'effet en plaçant plusieurs points sur la vidéo. Pratique ^^[/size]
+
+[size=12]Pour affiner la position, prenez votre image de la vidéo de départ et placez-vous au point ou elle est identique à l’image de la vidéo (donc zoom et rotation nulle). Entrez les coordonnées supposées du point d’effet en Point d’Ancrage. Copiez ces mêmes coordonnées en Position : la Position et le Point d’Ancrage sont toujours égaux dans ce cas.[/size]
+
+[size=12]Placez-vous ensuite au point le plus extrême de la rotation/zoom, ou la différence est maximale. Faites uniquement varier l’angle de la rotation ou l’échelle (pour le zoom) de sorte à vous rapprocher au maximum de la vidéo de départ. Ensuite déplacez légèrement l’image et jouez sur l’angle ou l’échelle avec précision de sorte à vous arranger pour avoir une image [b]IDENTIQUE[/b] à la vidéo de départ (sauf les éléments de la vidéo qui ont changé évidemment).[/size]
+
+[size=12]Vous n’avez plus qu’à rechercher maintenant la valeur pour laquelle la Position est égale au Point d’Ancrage dans AE. Soyez précis (typiquement à 0,1 voire 0,05 pixels). Si vous avez bien fait votre travail,  il suffira de jouer sur la valeur de l’angle ou de l’échelle pour reproduire l’animation et le résultat doit être excellent (= imperceptible à l’œil).[/size]
+[size=12][/size]
+[size=12][/size]
+[size=12]Si vous avez des questions, suggestions, allez-y,   ;)  [/size]
+
+[size=12][/size]
+[size=12]PS : faut que je corrige, je sais ^^[/size]
