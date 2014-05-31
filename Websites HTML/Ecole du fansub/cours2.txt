@@ -1,0 +1,88 @@
+[center][img]http://www.aegisub.org/images/logo.png[/img]
+[b][size=16]Deuxième Cours[/size]
+[size=18]Utilisation basique d'Aegisub[/size][/b] [/center]
+
+[b]? [u]Aegisub, qu'est-ce que c'est ? À quoi ça sert ?[/u][/b]
+
+[size=18]Aegisub[/size] est un logiciel gratuit et [u][url=http://fr.wikipedia.org/wiki/Logiciel_libre]libre[/url][/u] sous [u][url=http://fr.wikipedia.org/wiki/Licence_BSD]licence BSD[/url][/u].
+
+Il est actuellement le meilleur existant pour faciliter l'utilisation du langage ASS mais aussi le plus intuitif. Il a l'avantage d'être multi-plateforme.
+
+Quand DreamWeaver génère du HTML, Aegisub, lui, nous génère de l'ASS.
+Cependant, dès qu'on veut créer des effets un peu spéciaux, il est indispensable de connaître le langage ASS.
+C'est pourquoi l'école du fansub vous apprendra brièvement à utiliser Aegisub et se concentrera sur le [b]langage ASS[/b] en lui-même.
+
+[b]? [u]Installer Aegisub[/u][/b]
+
+Pour installer la dernière version d'Aegisub, il vaut mieux aller sur le site officiel puisque les sites de téléchargements sont pour la plupart resté sur la version 1.1. C'était jusqu'à l'actuelle la version la plus stable, mais aujourd'hui, nous pouvons en toute confiance utiliser la dernière : 2.1.8.
+
+[center][url=http://www.aegisub.org/][size=18]Site Officiel pour télécharger[/size][/url][/center]
+
+Comme dit précedemment, Aegisub est [b]multi-plateforme[/b].
+Vous pouvez donc l'utiliser sous Windows, Mac et Unix.
+
+Si vous ne comptez pas utiliser Aegisub pour faire de l'édition, du time ou du karaoké, alors il n'y a aucun problème à ce que vous utilisiez Mac ou Unix.
+Dans le cas contraire, je déconseille fortement voir interdit d'utiliser Aegisub autrement qu'avec [b]Windows[/b].
+Pourquoi ?
+Sous [b]Unix[/b], la lib ASS est très en retard par rapport à Windows et vous risquez d'avoir de très mauvaises surprises à l'encodage. Idem Wine, c'est caca boudin.
+Sous [b]Mac[/b], écoutez, je n'en sais trop rien, je n'ai jamais essayé mais ne prenons pas de risque puisqu'il y a de forte chance qu'il y ait le même problème.
+
+Bref, installez-vous une petite partition Windows juste pour Aegisub si vous êtes un hippie du libre ou un apple-addict.
+
+Tiens, au fait, j'utilise Aegisub en anglais donc je vous conseille de l'installer en anglais histoire de pas être perdu dans les menus.
+
+Je n'ai pas besoin de vous expliquer comment on installe un programme, non...?
+
+[b]? [u]Commencer avec Aegisub[/u][/b]
+
+On ouvre Aegisub, et ça ressemble à ça :
+[url=http://img44.xooimage.com/files/9/b/0/screenshot1-1c3dc1f.jpg]<img src="http://img44.xooimage.com/files/9/b/0/screenshot1-1c3dc1f.jpg" width="100%" border="0">[/url]
+
+On va donc commencer avec un exemple.
+
+Reprenons le fichier ASS de la dernière fois :
+
+[ [url=http://zerofansub.net/ASS/Ecole/Cours_ASS/Cours_02_Utilisation_basique_d_Aegisub/%5BEcole%5DKissXsis_01_Cours_ASS_02_Utilisation_basique_d_Aegisub.ass]Episode 01 de KissXsis[/url] ]
+
+[i][b][Files] / [Open Subtitles...][/b][/i]
+
+Il vous demande alors peut-être si vous souhaitez ouvrir les fichiers associés. La première fois, refusez, ils n'existerons sûrement pas sur votre ordinateur. Par la suite, en acceptant, seront ouverts les derniers fichiers ouverts avec cet ass (vidéo, son).
+
+Pour travailler sur l'ass, on va avoir besoin de la vidéo de l'épisode et l'audio.
+La vidéo de notre exemple :
+
+[ [url=http://zerofansub.net/ASS/Ecole/Cours_ASS/Cours_02_Utilisation_basique_d_Aegisub/%5BEcole%5DKissXsis_01_Cours_ASS_02_Utilisation_basique_d_Aegisub.mp4]Episode 01 de KissXsis[/url] ]
+
+Par la suite, sachez qu'il est important que toutes les personnes qui travaillent sur un épisode utilisent la même vidéo, vous comprendrez plus tard pourquoi si ce n'est pas évident pour vous.
+
+Pour ouvrir la vidéo (ça peut prendre un peu de temps selon le format et la résolution) :
+[i][b][Video] / [Open Video...][/b][/i]
+Puis l'audio qui va avec :
+[i][b][Audio] / [Open Audio from video][/b][/i]
+On n'ouvrira jamais un autre son que celui de la vidéo sauf dans le cas très rare où l'on doit timer un karaoké, que le son de la vidéo est de mauvaise qualité et qu'on a la chanson en mp3 externe.
+
+Voilà à quoi devrait ressembler Aegisub maintenant :
+[url=http://img40.xooimage.com/files/3/9/0/coursass2-1c4fa30.jpg]<img src="http://img40.xooimage.com/files/3/9/0/coursass2-1c4fa30.jpg" width="100%" border="0">[/url]
+
+[b]? [u]Qu'est-ce que c'est quoi, à quoi que ça sert ?[/u][/b]
+
+[i][b]La Vidéo[/b][/i]
+
+[url=http://forum.zerofansub.net/image/41/2/1/e/coursass3-1c4faf2.jpg.htm][img]http://img41.xooimage.com/files/2/1/e/coursass3-1c4faf2.jpg[/img][/url]
+
+[img]http://img45.xooimage.com/files/8/9/3/ass1-1c4fc87.jpg[/img] [b]Lecture[/b], mets en marche la vidéo à partir du time courant
+
+[img]http://img47.xooimage.com/files/c/d/2/ass2-1c4fc93.jpg[/img] [b]Lecture[/b] du début du sous-titre séléctionné à la fin de celui-ci (très pratique :p)
+
+[img]http://img41.xooimage.com/files/f/5/d/ass3-1c4fcaa.jpg[/img] Mets en [b]pause[/b] la vidéo pendant une lecture
+
+[img]http://img41.xooimage.com/files/9/0/8/ass4-1c4fcbd.jpg[/img][b] Autoscroll[/b]. Lorsqu'il est séléctionné (fond vert) et qu'on séléctionne un sous-titre (en cliquant dessus dans la liste des sous-titres), la vidéo se décale automatiquement au time de début du sous-titre. Pour désactiver cette option, il suffit de cliquer dessus.
+[img]http://img43.xooimage.com/files/a/5/1/ass6-1c4fce2.jpg[/img] Le time de la vidéo ne bougera pas si on séléctionne un sous-titre.
+
+[img]http://img40.xooimage.com/files/7/7/4/ass7-1c4fd28.jpg[/img] [b]Time[/b]. Le temps à la milliseconde près où l'on se trouve actuellement dans la vidéo, suivi du numéro de "[b]frame[/b]". frame = images, comme on le sait, une vidéo est une suite d'image, et le numéro de frame correspond au numéro d'images par rapport au début. Oui, il y en a beaucoup.
+
+[img]http://img45.xooimage.com/files/d/e/4/ass8-1c4fd5e.jpg[/img] Le temps de décalage entre le temps actuel et celui de début et de fin du sous-titre séléctionné.
+
+[img]http://img24.xooimage.com/files/8/b/4/ass9-1c4fd88.jpg[/img]
+La[b] barre de défilement[/b]. Le curseur permet de se déplacer rapidement dans la vidéo à l'aide de la souris, comme sur tout bon lecteur de vidéo. Les p'tits très noirs représente à peu près la fréquence de changement de plan. (voir partie audio plus tard). La barre de défilement est très utile quand on a besoin de voir une scéne image par image (time action, voir cours time, ou edit). Pour cela, il faut cliquer sur la barre de défilement. Elle est alors entourée comme sur la précédente image. Grâce aux flèches du clavier, on peut alors voir la vidéo image par image (ou presque, toutes les 4 images en général). Et c'est vraiment très pratique ::)
+

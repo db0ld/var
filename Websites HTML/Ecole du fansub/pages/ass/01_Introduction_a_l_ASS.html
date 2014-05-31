@@ -1,0 +1,262 @@
+<script type="text/javascript" language="Javascript">
+function show(nom_champ)
+{
+if(document.getElementById)
+{
+tabler = document.getElementById(nom_champ);
+if(tabler.style.display=="none")
+{
+tabler.style.display="";
+}
+else
+{
+tabler.style.display="none";
+}
+}
+}
+</script>
+
+
+<h3><center><strong><span style="font-size: 16px;">Premier Cours</span><br />
+<span style="font-size: 18px;">Introduction à l'ASS</span></strong> </center></h3>
+
+<p><h4><strong>&#9312; L'ASS, Une histoire de fesses ?</strong></h4></p>
+
+<p>Typiquement, la première réaction qu'on a quand on entend parler du langage ASS, c'est de se demander qu'est-ce que peut être ce langage étrange dont les initiales signifient "cul".<br />
+On en rit les premiers jours, puis on comprend rapidement que ce langage au nom grossier est en fait une perle pour nous, fansubeurs, puisqu'il nous offre de très larges possibilités d'édition et de mise en forme de nos sous-titres, et surtout, il est très intuitif et s'apprend rapidement, même en n'ayant jamais lu une seule ligne de code.<br />
+Alors, pourquoi s'en priver ?</p>
+
+<p><h4><strong>&#9313; Advanced Substation Alpha</strong></h4></p>
+
+<p>A.S.S signifie :<br />
+<strong><span style="font-size: 12px;"><span style="font-size: 18px;">A</span>dvanced <span style="font-size: 18px;">S</span>ub<span style="font-size: 18px;">S</span>tation Alpha</span></strong><br />
+Littéralement "Station de Sous-titrage Alpha Avancée".</p>
+
+<p>Un peu de culture, le langage ASS est en fait la version la plus évoluée du langage SSA, SubStation Alpha.<br />
+Nous en sommes actuellement à la version 4.0+ et le langage n'évoluera sans doute plus.</p>
+
+<p><h4><strong>&#9314; Les différentes parties d'un fichier ASS</strong></h4></p>
+
+<p>Entrons enfin dans le vif du sujet.<br />
+Voici un exemple de fichier A.S.S :<br />
+<a href="http://zerofansub.net/ASS/Ecole/Cours_ASS/Cours_01_Introduction_a_l_ass/%5BEcole%5DKissXsis_01_Cours_ASS_01_Introduction_a_l_ASS.ass">Episode 01 de KissXsis</a></p>
+
+<p>Ouvrez-le avec Bloc-Note, Notepad, Notepad++, bref, un éditeur de texte.<br />
+S'il vous propose de l'ouvrir avec Aegisub, c'est bien, vous avez pris l'initiative de l'installer, mais pour ce cours, on va se contenter de regarder le texte.</p>
+
+<p>Aïe ! Mais qu'est-ce que c'est que tout ce texte qui ne veut rien dire avec des mots anglais partout ?<br />
+Du calme, c'est très facile à comprendre.</p>
+
+<p>On va découper en plusieurs parties.</p>
+
+<p><em><strong>Le header</strong></em></p>
+
+<p><pre>
+Title: [Zero] KissXSis ep 01
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 640
+PlayResY: 480
+ScaledBorderAndShadow: yes
+Video Aspect Ratio: 0
+Video Zoom: 4
+Video Position: 30502
+Original Translation: [Zero]
+Original Editing: [Zero]
+Original Timing: [Zero]
+Collisions: Reverse
+Last Style Storage: Kissxsis
+Video File: [Leopard-Raws] KissXsis (2010) - 01 RAW (ATXHD 1280x720 x264 AAC).mp4
+Original Script: [Zero]
+Synch Point: [Zero]
+Script Updated By: [Zero]
+Update Details: [Zero]
+
+</pre></p>
+
+<p>Concrètement des informations concernant le contenu du fichier. Utilisés par les programme d'édition de sous-titre comme Aegisub ou encore les lecteurs vidéo supportant le langage ASS.<br />
+On ne va pas tout détailler, puisqu'en fait, en général, c'est du copié-collé pour chaque épisode et c'est même parfois généré par Aegisub.</p>
+
+<p><strong>Title :</strong> Titre. Etonnant, non ?</p>
+
+<p><strong>ScriptType :</strong> La version du langage, comme je vous l'ai dit tout à l'heure, la dernière version est la 4.0+, donc nous l'utilisons.</p>
+
+<p><strong>WrapStyle:</strong> Le rendu d'une ligne longue.</p>
+
+<p><a href="http://forum.zerofansub.net/image/48/9/a/5/tileopard-raws-ki...01_31415-1bdd3e7.png.htm"><img src="http://img48.xooimage.com/files/a/2/8/tileopard-raws-ki...01_31415-1bdd3e8.png" alt="tileopard-raws-ki...01_31415-1bdd3e8.png" /></a><br />
+0 : Disposition intelligente, ligne du haut plus longue que celle du bas. (La plus utilisee)<br />
+<a href="http://forum.zerofansub.net/image/47/5/3/2/tileopard-raws-ki...02_31415-1bdd41f.png.htm"><img src="http://img47.xooimage.com/files/c/7/7/tileopard-raws-ki...02_31415-1bdd420.png" alt="tileopard-raws-ki...02_31415-1bdd420.png" /></a><br />
+1 : On passe à une seconde ligne uniquement quand on arrive au bout de la première.<br />
+<a href="http://forum.zerofansub.net/image/43/1/3/f/tileopard-raws-ki...03_31415-1bdd42b.png.htm"><img src="http://img43.xooimage.com/files/5/5/b/tileopard-raws-ki...03_31415-1bdd42c.png" alt="tileopard-raws-ki...03_31415-1bdd42c.png" /></a><br />
+2 : On ne passe jamais à la ligne.<br />
+<a href="http://forum.zerofansub.net/image/26/e/0/a/tileopard-raws-ki...04_31415-1bdd434.png.htm"><img src="http://img26.xooimage.com/files/8/6/3/tileopard-raws-ki...04_31415-1bdd435.png" alt="tileopard-raws-ki...04_31415-1bdd435.png" /></a><br />
+3 : Idem 0 mais ligne du bas plus longue que ligne du haut.</p>
+
+<p>On apprendra dans la suite du cours comment forcer une mise à la ligne.</p>
+
+<p><strong>PlayResX, PlayResY :</strong> Sous quelle résolution les sous-titres sont appliqués à la vidéo. En général, on met la taille originale de la vidéo.<br />
+Exemple d'un même sous-titre avec deux tailles différentes :<br />
+<a href="http://forum.zerofansub.net/image/26/5/6/b/tileopard-raws-ki...01_19591-1bdd2cc.png.htm"><img src="http://img26.xooimage.com/files/8/c/e/tileopard-raws-ki...01_19591-1bdd2cd.png" alt="tileopard-raws-ki...01_19591-1bdd2cd.png" /></a><br />
+640x480<br />
+<a href="http://forum.zerofansub.net/image/45/1/0/0/tileopard-raws-ki...02_19591-1bdd2d5.png.htm"><img src="http://img45.xooimage.com/files/c/2/9/tileopard-raws-ki...02_19591-1bdd2d6.png" alt="tileopard-raws-ki...02_19591-1bdd2d6.png" /></a><br />
+1280x720<br />
+Avec la même vidéo et le même sous-titre, le rendu change complétement.</p>
+
+<p><strong>ScaledBorderAndShadow:</strong> Détermine si, par rapport aux données précédentes et dans le cas d'une taille différente à celle de la vidéo, l'échelle des ombres et contours doit être respectée.<br />
+<a href="http://forum.zerofansub.net/image/26/5/6/b/tileopard-raws-ki...01_19591-1bdd2cc.png.htm"><img src="http://img26.xooimage.com/files/8/c/e/tileopard-raws-ki...01_19591-1bdd2cd.png" alt="tileopard-raws-ki...01_19591-1bdd2cd.png" /></a><br />
+Mise à l'échelle<br />
+<a href="http://forum.zerofansub.net/image/44/1/e/6/tileopard-raws-ki...03_19591-1bdd33d.png.htm"><img src="http://img44.xooimage.com/files/2/7/1/tileopard-raws-ki...03_19591-1bdd33e.png" alt="tileopard-raws-ki...03_19591-1bdd33e.png" /></a><br />
+Pas de mise à l'échelle</p>
+
+<p><strong>Original Translation, Original Editing, Original Timing, Original Script, Synch Point, Script Updated By, Update Details:</strong><br />
+Informations diverses sur les auteurs du fichiers sous-titres.<br />
+Si un jour nos sous-titres étaient distribués, disponibles en libre-accès, alors nous remplirions ces informations. Comme nos sous-titres sont incrustés dans la vidéo et qu'il est impossible d'en voir la source, nous ne les remplissons jamais.</p>
+
+<p><strong>Video File:</strong> Permet d'associer un fichier vidéo aux sous-titres. Très utile quand plusieurs personnes travaillent sur un épisode pour ne pas se tromper de vidéo.<br />
+Il permet aussi à Aegisub de proposer automatiquement l'ouverture de la vidéo à l'ouverture du fichier sous-titre.</p>
+
+<p><em><strong>Les styles</strong></em></p>
+
+<p><pre>
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY,
+Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montara Gothic,35,&H00FFFFFF,&HFF00FFFF,&H003C2435,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: edit,Montara Gothic,35,&H00000000,&H0000FFFF,&H003C2435,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: titre,Arial Rounded MT Bold,38,&H00FFFFFF,&H0000FFFF,&H009D74DB,&H00000000,0,0,0,0,100,100,0,0,1,3,0,3,45,45,85,0
+Style: miep,Medrano,32,&H00FACDA3,&H00FFFFFF,&H001511CA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+</pre></p>
+
+<p>Les styles, c'est une sorte de pré-automatisation des sous-titres.<br />
+Très pratiques, ils permettent de définir diverses informations de mise en forme de sous-titres, de donner un nom à ce même ensemble d'informations et de les appliquer aux lignes de dialogues.<br />
+La première ligne "format" donne l'ordre de ces informations.<br />
+Par exemple, la ligne "titre" donne une ligne de ce type :<br />
+<a href="http://forum.zerofansub.net/image/24/a/8/c/tileopard-raws-ki...001_6349-1bdd766.png.htm"><img src="http://img24.xooimage.com/files/e/b/0/tileopard-raws-ki...001_6349-1bdd767.png" alt="tileopard-raws-ki...001_6349-1bdd767.png" /></a><br />
+Lors de son utilisation dans les lignes de dialogue :<br />
+<pre>
+Dialogue: 0,0:04:24.74,0:04:29.70,titre,,0000,0000,0000,,{\be1}Merveilleuses journées
+</pre><br />
+On voit qu'il n'y a besoin d'ajouter aucune information de position, de couleur, de contour, etc.<br />
+Cependant les styles ne permettent pas tout, d'où la présence d'une balise {\be1}. Nous comprendrons dans la suite du cours à quoi sert cette balise.</p>
+
+<p><strong>ATTENTION !</strong><br />
+Les styles servent avant tout à mettre en forme une grande quantité de sous-titres, comme le style "Default" qui est utilisé pour le 3/4 de l'épisode. Il ne faut donc pas en abuser.</p>
+
+<p>On a généralement ces styles dans un fichier ASS basique :<br />
+<strong>Default</strong>, toutes les lignes de sous-titres basiques<br />
+<strong>Titre</strong>, le titre de l'épisode<br />
+<strong>Logo</strong>, le logo de l'équipe au début de l'épisode<br />
+<strong>Crédits</strong>, les crédits dans l'opening avec les noms des participants à l'épisode<br />
+<strong>Edit</strong>, un style simple sans rien de particulier indiquant simplement qu'il va s'agir d'une édit<br />
+<strong>KaraOPjap</strong>, les karaokés de l'opening roumaji<br />
+<strong>KaraOPfr</strong>, les karaokés de l'opening français<br />
+<strong>KaraEDjap</strong>, les karaokés de l'endinb roumaji<br />
+<strong>KaraEDfr</strong>, les karaokés de l'ending français</p>
+
+<p>Il ne faut en aucun cas créer un style par édit. Pour une édit, tout doit être fait dans la ligne.</p>
+
+<p>Il peut aussi arriver qu'il y ait un style par personnage qui parle avec des couleurs différentes mais la même mise en forme.</p>
+
+<p><em><strong>Les sous-titres</strong></em></p>
+
+<p><pre>
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.04,0:00:07.50,Default,,0000,0000,0000,,Allez-vous-en !
+Dialogue: 0,0:00:07.50,0:00:09.15,Default,,0000,0000,0000,,Arrêtez d'embêter Keita !
+Dialogue: 0,0:00:10.66,0:00:12.38,Default,,0000,0000,0000,,Arrêtez, j'ai dit !
+Dialogue: 0,0:00:19.55,0:00:20.38,Default,,0000,0000,0000,,Merci.
+Dialogue: 0,0:00:21.37,0:00:24.09,Default,,0000,0000,0000,,Ako-neechan, Riko-neechan.
+Dialogue: 0,0:00:28.59,0:00:30.02,Default,,0000,0000,0000,,Allez, ne pleure plus.
+
+</pre></p>
+
+<p>Tout comme les styles, l'ordre des informations est donné au début. Cet ordre n'est là qu'à titre informatif, il n'est pas modifiable  :)</p>
+
+<p>Dans l'exemple ci-dessus, les lignes sont simplement des sous-titres basiques.<br />
+Elles n'ont pas besoin de balise de mise en forme particulière, puisqu'elles utilisent le style prédéfini "default".</p>
+
+<p><strong>Format</strong> : Une ligne de sous-titres peut ne pas apparaitre. Il suffit de remplacer "Dialogue" par "Comment".<br />
+<strong>Layer</strong> permet de définir l'ordre des "calques" dans le cas ou deux sous-titres apparaitraient en même temps. Il n'est pas utile de le définir, par défaut, c'est le sous-titre le plus bas qui est en premier plan.<br />
+<strong>Start et End</strong> sont les temps par rapport au début de la vidéo d'apparition du sous-titre. Une simple soustraction et on a la durée d'apparition  :) <br />
+<strong>Style</strong> est remplacé par le nom du style utilisé, expliqué ci-dessus.<br />
+<strong>Name</strong> contient en général le nom du personnage qui parle. En général, nous ne le remplissons pas.<br />
+<strong>Margins</strong> Les marges par rapport aux bords de la vidéo. Il ne faut pas utiliser ce système, pas assez stable. Nous utiliserons la balise {\pos(x,y)} pour définir la position d'un texte. Nous verrons son utilisation dans la suite du cours. En bref, n'utilisez pas ces données margin !<br />
+<strong>Effect</strong> est utile quand on se sert de l'automatisation, par exemple en mettant "karaoke", on sait que c'est une ligne de karaoké et on peut appliquer de l'automatisation.<br />
+<strong>Le texte</strong> contient ce qui va être affiché à l'écran. Tout ce qui se trouve entre {} est soit du code de mise en forme soit du commentaire qui ne s'affiche pas à l'écran.</p>
+
+<p><h4><strong>&#9315; QCM</strong></h4></p>
+
+<p>Pour être sûr d'avoir compris le cours, répondez aux questions suivantes.<br />
+Si vous hésitez ou vous vous trompez, relisez le cours !</p>
+
+<p><span style="text-decoration: underline;"><strong>1. Qu'est-ce que signifient les lettres A.S.S ?</strong></span><br />
+a. Advanced Subtitle Script<br />
+b. Alpha Subtitle Station<br />
+c. Advanced SubStation Alpha<br />
+[<a href="#" onClick="show('reponse1'); return(false);" id="plus">Réponse</a>]
+<div id="reponse1" style="display:none;">c. Advanced SubStation Alpha</div></p>
+
+<p><span style="text-decoration: underline;"><strong>2. Quelle version utilisons-nous actuellement ?</strong></span><br />
+a. 4.0<br />
+b. 4.0+<br />
+c. 4.1<br />
+[<a href="#" onClick="show('reponse2'); return(false);" id="plus">Réponse</a>]
+<div id="reponse2" style="display:none;">b. 4.0+</div></p>
+
+<p><span style="text-decoration: underline;"><strong>3. Dans quel ordre sont rangées les informations d'un fichier ASS ?</strong></span><br />
+a. Header, Styles, Dialogues<br />
+b. Styles, Header, Dialogues<br />
+c. Dialogues, Styles, Header<br />
+[<a href="#" onClick="show('reponse3'); return(false);" id="plus">Réponse</a>]
+<div id="reponse3" style="display:none;">a. Header, Styles, Dialogues</div></p>
+
+<p><span style="text-decoration: underline;"><strong>4. Dans le Header, quelle partie contient les informations sur la résolution de la vidéo par rapport aux sous-titres ?</strong></span><br />
+a. WrapStyle<br />
+b. PlayResX, PlayResY<br />
+c. ScaledBorderAndShadow<br />
+[<a href="#" onClick="show('reponse4'); return(false);" id="plus">Réponse</a>]
+<div id="reponse4" style="display:none;">b. PlayResX, PlayResY</div></p>
+
+<p><span style="text-decoration: underline;"><strong>5. Quel est le type de mise en forme des lignes longues que nous utilisons le plus souvent ?</strong></span><br />
+a. On passe à une seconde ligne uniquement quand on arrive au bout de la première.<br />
+b. On ne passe jamais à la ligne.<br />
+c. Disposition intelligente, ligne du haut plus longue que celle du bas.<br />
+[<a href="#" onClick="show('reponse5'); return(false);" id="plus">Réponse</a>]
+<div id="reponse5" style="display:none;">c. Disposition intelligente, ligne du haut plus longue que celle du bas.</div></p>
+
+<p><span style="text-decoration: underline;"><strong>6. Doit-on avoir...?</strong></span><br />
+a. Un style 'Edit' très simple utilisé pour toutes les édits qui ne contient pas de mise en forme mais sert juste à informer<br />
+b. Un style par Edit avec la mise en forme complète qui correspond au panneau traduit.<br />
+c. Pas du tout de style pour les Edits, Toute la mise en forme est dans la ligne en question.<br />
+[<a href="#" onClick="show('reponse6'); return(false);" id="plus">Réponse</a>]
+<div id="reponse6" style="display:none;">a. Un style 'Edit' très simple utilisé pour toutes les édits qui ne contient pas de mise en forme mais sert juste à informer</div></p>
+
+<p><span style="text-decoration: underline;"><strong>7. En général, combien a -t-on de styles pour les karaokés ?</strong></span><br />
+a. 2<br />
+b. 4<br />
+c. 1<br />
+[<a href="#" onClick="show('reponse7'); return(false);" id="plus">Réponse</a>]
+<div id="reponse7" style="display:none;">b. 4 (Un roumanji et français pour l'opening et l'ending)</div></p>
+
+<p><span style="text-decoration: underline;"><strong>8. Peut-on modifier l'ordre des informations ?</strong></span><br />
+a. Oui, mais comme ces informations sont à titre indicatif, ça ne changera rien<br />
+b. Oui, ce sera modifié dans toutes les lignes<br />
+c. Non, l'ASS deviendrait alors inutilisable<br />
+[<a href="#" onClick="show('reponse8'); return(false);" id="plus">Réponse</a>]
+<div id="reponse8" style="display:none;">a. Oui, mais comme ces informations sont à titre indicatif, ça ne changera rien</div></p>
+
+<p><span style="text-decoration: underline;"><strong>9. Que doit-on mettre comme format pour qu'une ligne n'apparaisse pas à l'écran ?</strong></span><br />
+a. Dialogue<br />
+b. NoAppear<br />
+c. Comment<br />
+[<a href="#" onClick="show('reponse9'); return(false);" id="plus">Réponse</a>]
+<div id="reponse9" style="display:none;">c. Comment</div></p>
+
+<p><span style="text-decoration: underline;"><strong>10. À quoi servent les balises {} dans un dialogue ?</strong></span><br />
+a. À mettre du code de mise en forme<br />
+b. À mettre des commentaires invisibles à l'écran<br />
+c. Les deux<br />
+[<a href="#" onClick="show('reponse10'); return(false);" id="plus">Réponse</a>]
+<div id="reponse10" style="display:none;">c. Les deux</div></p>

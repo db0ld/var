@@ -1,0 +1,142 @@
+<p><center><img src="http://www.aegisub.org/images/logo.png" alt="logo.png" /><br />
+<h3><strong><span style="font-size: 16px;">Deuxième Cours</span><br />
+<span style="font-size: 18px;">Utilisation basique d'Aegisub</span></strong> </center></h3></p>
+
+<p><h4><strong>&#9312; Aegisub, qu'est-ce que c'est ? À quoi ça sert ?</strong></h4></p>
+
+<p><span style="font-size: 18px;">Aegisub</span> est un logiciel gratuit et <span style="text-decoration: underline;"><a href="http://fr.wikipedia.org/wiki/Logiciel_libre" target="_blank">libre</a></span> sous <span style="text-decoration: underline;"><a href="http://fr.wikipedia.org/wiki/Licence_BSD" target="_blank">licence BSD</a></span>.</p>
+
+<p>Il est actuellement le meilleur existant pour faciliter l'utilisation du langage ASS mais aussi le plus intuitif. Il a l'avantage d'être multi-plateforme.</p>
+
+<p>Quand DreamWeaver génère du HTML, Aegisub, lui, nous génère de l'ASS.<br />
+Cependant, dès qu'on veut créer des effets un peu spéciaux, il est indispensable de connaître le langage ASS.<br />
+C'est pourquoi l'école du fansub vous apprendra brièvement à utiliser Aegisub et se concentrera sur le <strong>langage ASS</strong> en lui-même.</p>
+
+<p><h4><strong>&#9313; Installer Aegisub</strong></h4></p>
+
+<p>Pour installer la dernière version d'Aegisub, il vaut mieux aller sur le site officiel puisque les sites de téléchargements sont pour la plupart resté sur la version 1.1. C'était jusqu'à l'actuelle la version la plus stable, mais aujourd'hui, nous pouvons en toute confiance utiliser la dernière : 2.1.8.</p>
+
+<p><center><a href="http://www.aegisub.org/" target="_blank"><span style="font-size: 18px;">Site Officiel pour télécharger</span></a></center></p>
+
+<p>Comme dit précedemment, Aegisub est <strong>multi-plateforme</strong>.<br />
+Vous pouvez donc l'utiliser sous Windows, Mac et Unix.</p>
+
+<p>Si vous ne comptez pas utiliser Aegisub pour faire de l'édition, du time ou du karaoké, alors il n'y a aucun problème à ce que vous utilisiez Mac ou Unix.<br />
+Dans le cas contraire, je déconseille fortement voir interdit d'utiliser Aegisub autrement qu'avec <strong>Windows</strong>.<br />
+Pourquoi ?<br />
+Sous <strong>Unix</strong>, la lib ASS est très en retard par rapport à Windows et vous risquez d'avoir de très mauvaises surprises à l'encodage. Idem Wine, c'est caca boudin.<br />
+Sous <strong>Mac</strong>, écoutez, je n'en sais trop rien, je n'ai jamais essayé mais ne prenons pas de risque puisqu'il y a de forte chance qu'il y ait le même problème.</p>
+
+<p>Bref, installez-vous une petite partition Windows juste pour Aegisub si vous êtes un hippie du libre ou un apple-addict.</p>
+
+<p>Tiens, au fait, j'utilise Aegisub en anglais donc je vous conseille de l'installer en anglais histoire de pas être perdu dans les menus.</p>
+
+<p>Je n'ai pas besoin de vous expliquer comment on installe un programme, non...?</p>
+
+<p><h4><strong>&#9314; Commencer avec Aegisub</strong></h4></p>
+
+<p>On ouvre Aegisub, et ça ressemble à ça :<br />
+<a href="http://img44.xooimage.com/files/9/b/0/screenshot1-1c3dc1f.jpg" target="_blank"><img src="http://img44.xooimage.com/files/9/b/0/screenshot1-1c3dc1f.jpg" width="100%" border="0"></a></p>
+
+<p>On va donc commencer avec un exemple.</p>
+
+<p>Reprenons le fichier ASS de la dernière fois :</p>
+
+<p>[ <a href="http://zerofansub.net/ASS/Ecole/Cours_ASS/Cours_02_Utilisation_basique_d_Aegisub/%5BEcole%5DKissXsis_01_Cours_ASS_02_Utilisation_basique_d_Aegisub.ass" target="_blank">Episode 01 de KissXsis</a> ]</p>
+
+<p><em><strong>[Files] / [Open Subtitles...]</strong></em></p>
+
+<p>Il vous demande alors peut-être si vous souhaitez ouvrir les fichiers associés. La première fois, refusez, ils n'existerons sûrement pas sur votre ordinateur. Par la suite, en acceptant, seront ouverts les derniers fichiers ouverts avec cet ass (vidéo, son).</p>
+
+<p>Pour travailler sur l'ass, on va avoir besoin de la vidéo de l'épisode et l'audio.<br />
+La vidéo de notre exemple :</p>
+
+<p>[ <a href="http://zerofansub.net/ASS/Ecole/Cours_ASS/Cours_02_Utilisation_basique_d_Aegisub/%5BEcole%5DKissXsis_01_Cours_ASS_02_Utilisation_basique_d_Aegisub.mp4" target="_blank">Episode 01 de KissXsis</a> ]</p>
+
+<p>Par la suite, sachez qu'il est important que toutes les personnes qui travaillent sur un épisode utilisent la même vidéo, vous comprendrez plus tard pourquoi si ce n'est pas évident pour vous.</p>
+
+<p>Pour ouvrir la vidéo (ça peut prendre un peu de temps selon le format et la résolution) :<br />
+<em><strong>[Video] / [Open Video...]</strong></em><br />
+Puis l'audio qui va avec :<br />
+<em><strong>[Audio] / [Open Audio from video]</strong></em><br />
+On n'ouvrira jamais un autre son que celui de la vidéo sauf dans le cas très rare où l'on doit timer un karaoké, que le son de la vidéo est de mauvaise qualité et qu'on a la chanson en mp3 externe.</p>
+
+<p>Voilà à quoi devrait ressembler Aegisub maintenant :<br />
+<a href="http://img40.xooimage.com/files/3/9/0/coursass2-1c4fa30.jpg" target="_blank"><img src="http://img40.xooimage.com/files/3/9/0/coursass2-1c4fa30.jpg" width="100%" border="0"></a></p>
+
+<p><h4><strong>&#9315; Qu'est-ce que c'est quoi, à quoi que ça sert ?</strong></h4></p>
+
+<p><em><strong>La Vidéo</strong></em></p>
+
+<p><a href="http://forum.zerofansub.net/image/41/2/1/e/coursass3-1c4faf2.jpg.htm" target="_blank"><img src="http://img41.xooimage.com/files/2/1/e/coursass3-1c4faf2.jpg" alt="coursass3-1c4faf2.jpg" /></a></p>
+
+<p><img src="http://img45.xooimage.com/files/8/9/3/ass1-1c4fc87.jpg" alt="ass1-1c4fc87.jpg" /> <strong>Lecture</strong>, mets en marche la vidéo à partir du time courant</p>
+
+<p><img src="http://img47.xooimage.com/files/c/d/2/ass2-1c4fc93.jpg" alt="ass2-1c4fc93.jpg" /> <strong>Lecture</strong> du début du sous-titre séléctionné à la fin de celui-ci (très pratique :p)</p>
+
+<p><img src="http://img41.xooimage.com/files/f/5/d/ass3-1c4fcaa.jpg" alt="ass3-1c4fcaa.jpg" /> Mets en <strong>pause</strong> la vidéo pendant une lecture</p>
+
+<p><img src="http://img41.xooimage.com/files/9/0/8/ass4-1c4fcbd.jpg" alt="ass4-1c4fcbd.jpg" /><strong> Autoscroll</strong>. Lorsqu'il est séléctionné (fond vert) et qu'on séléctionne un sous-titre (en cliquant dessus dans la liste des sous-titres), la vidéo se décale automatiquement au time de début du sous-titre. Pour désactiver cette option, il suffit de cliquer dessus.<br />
+<img src="http://img43.xooimage.com/files/a/5/1/ass6-1c4fce2.jpg" alt="ass6-1c4fce2.jpg" /> Le time de la vidéo ne bougera pas si on séléctionne un sous-titre.</p>
+
+<p><img src="http://img40.xooimage.com/files/7/7/4/ass7-1c4fd28.jpg" alt="ass7-1c4fd28.jpg" /> <strong>Time</strong>. Le temps à la milliseconde près où l'on se trouve actuellement dans la vidéo, suivi du numéro de "<strong>frame</strong>". frame = images, comme on le sait, une vidéo est une suite d'image, et le numéro de frame correspond au numéro d'images par rapport au début. Oui, il y en a beaucoup.</p>
+
+<p><img src="http://img45.xooimage.com/files/d/e/4/ass8-1c4fd5e.jpg" alt="ass8-1c4fd5e.jpg" /> Le temps de décalage entre le temps actuel et celui de début et de fin du sous-titre séléctionné.</p>
+
+<p><img src="http://img24.xooimage.com/files/8/b/4/ass9-1c4fd88.jpg" alt="ass9-1c4fd88.jpg" /><br />
+La<strong> barre de défilement</strong>. Le curseur permet de se déplacer rapidement dans la vidéo à l'aide de la souris, comme sur tout bon lecteur de vidéo. Les p'tits très noirs représente à peu près la fréquence de changement de plan. (voir partie audio plus tard). La barre de défilement est très utile quand on a besoin de voir une scéne image par image (time action, voir cours time, ou edit). Pour cela, il faut cliquer sur la barre de défilement. Elle est alors entourée comme sur la précédente image. Grâce aux flèches du clavier, on peut alors voir la vidéo image par image (ou presque, toutes les 4 images en général). Et c'est vraiment très pratique ::)</p>
+
+<p><a href="http://forum.zerofansub.net/image/46/a/b/6/ass17-1d135f1.jpg.htm" target="_blank"><img src="http://img46.xooimage.com/files/a/b/6/ass17-1d135f1.jpg" alt="ass17-1d135f1.jpg" /></a> <em><strong>Le mode <span style="text-decoration: underline;">Crosshair</span></strong></em></p>
+
+<p><a href="http://forum.zerofansub.net/image/24/b/0/e/ass10-1d1364f.jpg.htm" target="_blank"><img src="http://img24.xooimage.com/files/5/7/2/ass10-1d13650.jpg" alt="ass10-1d13650.jpg" /></a><br />
+C'est le mode par defaut.<br />
+Il permet, lorsque l'on passe la souris sur la vidéo, de <strong>connaître la position du curseur en x et y</strong>.<br />
+Utile quand on a besoin de positionner un texte de manière précise.</p>
+
+<p><a href="http://forum.zerofansub.net/image/43/7/4/b/ass18-1d1368f.jpg.htm" target="_blank"><img src="http://img43.xooimage.com/files/7/4/b/ass18-1d1368f.jpg" alt="ass18-1d1368f.jpg" /></a> <em><strong>Le mode <span style="text-decoration: underline;">Drag</span></strong></em></p>
+
+<p><a href="http://forum.zerofansub.net/image/40/2/b/6/ass11-1d13629.jpg.htm" target="_blank"><img src="http://img40.xooimage.com/files/7/9/7/ass11-1d1362a.jpg" alt="ass11-1d1362a.jpg" /></a><br />
+Ce mode permet de <strong>déplacer un sous-titre en temps réel</strong>.<br />
+Lors d'un déplacement, une balise "<strong>pos</strong>" s'ajoute au sous-titre avec la nouvelle position en x et y.</p>
+
+<p>en cliquant sur l'icone :<br />
+<a href="http://forum.zerofansub.net/image/41/3/9/a/ass24-1d136dd.jpg.htm" target="_blank"><img src="http://img41.xooimage.com/files/3/9/a/ass24-1d136dd.jpg" alt="ass24-1d136dd.jpg" /></a><br />
+qui se transforme alors en :<br />
+<a href="http://forum.zerofansub.net/image/49/2/b/5/ass25-1d136e0.jpg.htm" target="_blank"><img src="http://img49.xooimage.com/files/2/b/5/ass25-1d136e0.jpg" alt="ass25-1d136e0.jpg" /></a><br />
+On passe en <strong>mode mouvement</strong>.<br />
+<a href="http://forum.zerofansub.net/image/49/6/5/b/ass26-1d136ed.jpg.htm" target="_blank"><img src="http://img49.xooimage.com/files/1/3/b/ass26-1d136ee.jpg" alt="ass26-1d136ee.jpg" /></a><br />
+On a deux curseurs de position :<br />
+Un carré et un rond.<br />
+Le carré correspond à la position de départ et le rond la position d'arrivée.<br />
+La flèche est le mouvement entre les deux.<br />
+Le mouvement est <span style="text-decoration: underline;">linéaire</span> et <span style="text-decoration: underline;">uniforme</span>.<br />
+C'est l'un des gros défaut de l'ass, qui ne permet pas de mouvements complexes...<br />
+Une balise "<strong>move</strong>" aura maintenant remplacé la balise "pos".<br />
+Elle a la syntaxe suivante :<br />
+<em><strong>{\move(x_depart, y_depart, x_arrivee, y_arrivee, time_depart, time_arrivee)}</strong></em><br />
+Elle prend donc <strong>6</strong> arguments.<br />
+S'il n'y a que <strong>4</strong> arguments, alors le mouvement se fera du début à la fin du sous-titre.<br />
+Le temps du mouvement se calcule à la main.<br />
+Pour cela, utiliser la méthode précedemment expliqué de déplacement image par image grâce à la barre de défilement.</p>
+
+<p><a href="http://forum.zerofansub.net/image/46/5/0/f/ass19-1d13978.jpg.htm" target="_blank"><img src="http://img46.xooimage.com/files/5/0/f/ass19-1d13978.jpg" alt="ass19-1d13978.jpg" /></a> <em><strong>Le mode <span style="text-decoration: underline;">Rotate</span></strong></em></p>
+
+<p><a href="http://forum.zerofansub.net/image/26/8/b/b/ass12-1d13995.jpg.htm" target="_blank"><img src="http://img26.xooimage.com/files/5/2/1/ass12-1d13996.jpg" alt="ass12-1d13996.jpg" /></a><br />
+Il permet de <strong>donner un angle</strong> à notre sous-titre en temps réel grâce à la souris.<br />
+Plus on change l'angle en ayant le curseur éloigné du point d'origine (le triangle) plus l'angle pourra être modifié avec précision.<br />
+Une balise <em><strong>{\frz42}</strong></em> apparait, ou 42 est l'angle en degrès.<br />
+En cliquant sur le <strong>triangle</strong>, on peut aussi changer le <strong>point d'origine</strong> du sous-titre.<br />
+Un balise {\org(x,y)} apparait alors. Le x et le y sont la position du point d'origine par rapport à la vidéo.</p>
+
+<p><a href="http://forum.zerofansub.net/image/44/5/b/d/ass20-1d13a07.jpg.htm" target="_blank"><img src="http://img44.xooimage.com/files/5/b/d/ass20-1d13a07.jpg" alt="ass20-1d13a07.jpg" /></a> <em><strong>Le mode <span style="text-decoration: underline;">Rotate++</span></strong></em></p>
+
+<p><a href="http://forum.zerofansub.net/image/26/b/8/5/ass13-1d13a23.jpg.htm" target="_blank"><img src="http://img26.xooimage.com/files/0/0/0/ass13-1d13a24.jpg" alt="ass13-1d13a24.jpg" /></a><br />
+Ce mode permet de modifier l'angle d'un sous-titre comme s'il s'agissait d'un objet en 3Dimensions.<br />
+Encore une fois en temps réel avec la souris.<br />
+Rappelons qu'en 3D, les axes se présentent de la manière suivante :<br />
+<img src="http://tecfa.unige.ch/staf/staf9597/strasser/staf23/vrml/axes.gif" alt="axes.gif" /><br />
+Il en est de même quand à l'angle de notre sous-titre.<br />
+Ainsi, tout comme précedemment avec la balise {\frz}, apparaissent deux autres balises :<br />
+<em><strong>{\fry}</strong></em> et <em><strong>{\frx}</strong></em>. Il est important de connaître le repère de l'image précédente pour bien utiliser ces balises.</p>
+
+<h1>En cours de rédaction...</h1>

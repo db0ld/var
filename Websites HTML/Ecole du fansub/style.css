@@ -1,0 +1,161 @@
+body {
+	background: #ffffff url('img/bg.png') top center;
+	font-family: Tahoma;
+	color: #000000;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #8C613E;
+}
+
+a:hover {
+	border-bottom: 1px dashed #8C613E;
+}
+
+img:hover {
+	border: none;
+}
+#main {
+	margin: auto;
+	min-width: 800px;
+	width: 70%;
+	margin-top: 10px;
+}
+
+p {
+	text-indent: 15px;
+}
+
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #DF1C7D;
+	text-indent: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 0;
+	margin: 0;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before {
+	content: url('img/menu/puce_menu_hover.png');
+}
+
+/****************/
+
+#header {
+	width: 100%;
+	height: 200px;
+	background: #D0AF95 url('img/bg_header.png');
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+	margin-bottom: 10px;
+}
+#header #bg1 {
+	width: 100%;
+	height: 200px;
+	background: url('img/bg_left.png') no-repeat top left;
+}
+#header #bg2 {
+	width: 100%;
+	height: 164px;
+	background: url('img/bg_right.png') no-repeat top right;
+	text-align: center;
+	padding-top: 36px;
+}
+
+#menu {
+	float: right;
+	background: #D0AF95;
+	width: 20%;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+}
+#menu a {
+	color: #FFFF00;
+}
+#menu a:hover {
+	border: none;
+}
+#menu .button {
+	width: 100%;
+	height: 20px;
+	list-style-image: url('img/menu/puce_menu.png');
+}
+#menu .button:hover {
+	list-style-image: url('img/menu/puce_menu_hover.png');
+}
+
+#page {
+	background: #FFFFFF;
+	width: 76%;
+	padding: 10px;
+	border: 5px solid #D0AF95;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+}
+#page li {
+	list-style-image: url('img/puce_pink.png');
+}
+
+#sorties {
+	margin: 5px;
+	text-align: center;
+	height: 120px;
+	background: #D0AF95;
+	width: 95%;
+	padding: 5px;
+	margin-bottom: 20px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+}
+#sorties img {
+	padding: 5px;
+}
+#footer {
+	margin-top: 10px;
+	background: #D0AF95;
+	width: 100%;
+	height: 60px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+}
+#footer #up {
+	float: right;
+	width: 140px;
+	height: 60px;
+	background: url('img/footer_up.png') center right no-repeat;
+}
+#footer #content {
+	font-size: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+}
