@@ -1,0 +1,71 @@
+body {
+	background: url('images/interface/bg.png');
+	font-family: cursive;
+	color: black;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: #027808 solid 1px;
+	color: #027808;
+}
+
+a:hover {
+	border-top: #027808 solid 1px;}
+
+#main {
+        background: white;
+	margin: auto;
+	width: 80%;
+	height: 	
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -230px;
+	margin-left: -320px;
+	width: 640px;
+	height: 460px;
+	border: 5px solid black;
+	-moz-border-radius-topleft: 15px;
+     	-moz-border-radius-topright: 15px;
+     	-moz-border-radius-bottomright: 15px;
+      	-moz-border-radius-bottomleft: 15px;
+}
+
+/****************/
+
+#main #home {
+      text-align: center;
+      height: 420px;
+}
+
+#main #home input {
+	border: 5px solid #9dd0e8;
+	-moz-border-radius-topleft: 35px;
+     	-moz-border-radius-topright: 35px;
+     	-moz-border-radius-bottomright: 35px;
+      	-moz-border-radius-bottomleft: 35px;
+	text-align: center;
+	font-size: 26px;
+	margin: 10px;
+	padding: 5px;
+	background: white;
+}
+
+#footer {
+	padding: 5px;
+	text-align: right;
+	font-size: 0.6em;
+}
+
+#main #pages {
+      
+}

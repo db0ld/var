@@ -1,0 +1,128 @@
+body {
+	background: url('images/interface/bg__.jpg');
+	font-family: cursive;
+	color: black;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #027808;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+#main {
+	margin: auto;
+	width: 80%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/****************/
+
+#header, #menu, #page, #footer, .module {
+      border: solid 5px black; 
+      -moz-border-radius-topleft: 15px;
+      -moz-border-radius-topright: 15px;
+     -moz-border-radius-bottomright: 15px;
+      -moz-border-radius-bottomleft: 15px;
+      margin: auto;
+}
+
+#header {
+	background: url('images/interface/bg_footer.jpg') center center;
+	text-align: left;
+	padding: 10px;
+	height: 120px;
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+#menu {
+	float: right;
+	background: #00f10f;
+	width: 20%;
+}
+
+#menu ul {
+      text-align: left;
+      list-style-image: url("images/interface/icon.gif");
+}
+
+#menu p {
+      text-align: left;
+      padding: 5px;
+}
+
+#menu h4, #menu h5 {
+      font-weight: bold;
+}
+
+#menu h4 {
+      font-size: 1.5em;
+}
+
+#menu h5 {
+      font-size: 1.2em;
+      text-align: left;
+      padding: 5px;
+      margin: 0;
+}
+
+#page {
+      margin-left: 10px;
+      padding: 5px;
+      width: 75%;
+      background: white;
+      min-height: 500px;
+      border: solid 5px black;
+}
+
+#footer {
+	text-align: right;
+	margin-top: 10px;
+	padding: 10px;
+	width: 95%;
+	height: 20px;
+	background: url('images/interface/bg_header.jpg') center center;
+}
+
+.module {
+	width: 100% - 30px;
+	margin-bottom: 5px;
+}
+
+.module .title {
+      -moz-border-radius-topleft: 15px;
+      -moz-border-radius-topright: 15px;
+      text-transform: capitalize;
+      width: 100% - 10px;
+      background: #00f10f;
+      padding: 5px;
+      font-weight: bold;
+      font-size: 16px;
+}
+
+.module p {
+	text-align: left;
+	text-indent: 5px;
+	padding: 10px;
+}
+
+.module p img {
+	float: right;
+}
+
+.module .comment {
+	color: #027808;
+	padding-bottom: 10px;
+}
