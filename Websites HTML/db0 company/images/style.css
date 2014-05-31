@@ -1,0 +1,112 @@
+/*Configuration générale */
+
+* { margin: 0; padding: 0;}
+
+body {
+	margin: 0;
+	background-image: url(images/extensiblehead.jpg) ;
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+a { color: #3e3e3e; }
+
+a:hover {text-decoration: none; }
+
+/* -Header- */
+
+#header {
+	width: 373px;
+	height: 153px;
+	background: url(images/header.jpg) no-repeat ;
+	margin: 0;
+}
+
+#header span {
+	display: none;
+}
+
+/* -Menu header- */
+
+#menuhorizontal {
+	height: 27px;
+	margin: -96px 0 0 362px;
+	list-style-type: none;
+}
+
+#menuhorizontal li {
+	float: left;
+	display: block;
+	width: 81px;
+	height: 27px;
+	margin: 0 4px 0 5px ;
+	line-height: 15px;
+	background: url(images/menuheader.jpg) no-repeat;
+	text-align: center;
+}
+
+#menuhorizontal li a {
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#menuhorizontal li a:hover {text-decoration: underline;}
+
+/* Barre de Connexion */
+
+#connexion {
+	height: 45px;
+	margin: 24px 0 0 370px;
+	color: #6a6a6a;
+	padding: 7px 0;
+}
+
+/* Menu vertical */
+
+#menuvertical {
+	width: 140px;
+	margin: 0px 0 0 0 ;
+	float: left;
+	list-style-type: none;
+}
+
+#menuvertical li {
+	display: block;
+	width: 140px;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+	margin: 7px 0 0 0;
+	background: url(images/menuvertical.jpg) no-repeat;
+}
+
+#menuvertical li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px 0 0;
+}
+
+#menuvertical li a:hover{text-decoration: underline;}
+
+/* Contenu */
+
+#contenu {
+	width: 670px;
+	margin: 45px 0 0 185px;
+	background: url(images/l.gif) no-repeat ;
+                   background-position: bottom right;
+}
+
+#contenu h2 {
+	color: #fb8800;
+	margin: 25px 9px 0 0;
+	font-size: 1em;
+}
+
+#footer {
+	clear: both;
+	margin: 70px 0 0 0;
+	text-align: center;
+}
