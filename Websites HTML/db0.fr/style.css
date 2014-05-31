@@ -1,0 +1,81 @@
+body {
+	background: #ffffff;
+	font-family: Tahoma;
+	color: rgb(128,128,128);
+	font-size: 12px;
+}
+img {
+border: none;
+font-size: 12px;
+vertical-align: bottom;
+}
+a { text-decoration: none; color: rgb(253, 138,194); }
+a:hover { text-decoration: underline overline; }
+#main {
+	margin: auto;
+	width: 550px;
+	margin-top: 30px;
+}
+#irl { width: 255px; margin-top: 5px; }
+#iol { width: 250px; margin-top: 5px; margin-left: 5px; float: right; }
+#contact { width: 255px; margin-top: 5px; margin-bottom: 5px; }
+#galerie { width: 250px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; float: right; }
+#irl, #iol, #contact, #galerie {
+	border: 5px solid rgb(244,244,244);
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+	height: 60px;
+	background: #ffffff;
+	padding: 5px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(253, 138,194);
+	opacity: 0.7;
+}
+#irl:hover, #iol:hover, #contact:hover, #galerie:hover {
+	opacity: 1;
+}
+#irl a, #iol a, #contact a, #galerie a{
+	color: rgb(128,128,128);
+	text-decoration: none;
+}
+#irl a:hover, #iol a:hover, #contact a:hover, #galerie a:hover{
+	text-decoration: underline overline;
+}
+#contenu  {
+	min-height: 100px;
+	width: 530px;
+	border: 5px solid rgb(244,244,244);
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+	padding: 5px;
+}
+#footer {
+	width: 530px;
+	border: 5px solid rgb(244,244,244);
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+	text-align: center;
+}
+#footer:hover {
+	opacity: 1;
+}
+
+.p { text-indent: 15px; }
+.right { text-align: right; }
+.center { text-align: center; }
+.left { text-align: left; }
+textarea {  width: 320px; height:250px; background: #ffffff; border: dotted rgb(128,128,128) 1px;}
+input { width: 180px; background: #ffffff; border: dotted rgb(128,128,128) 1px; }
+.col1 {	width: 200px;	float: left;	}
+.col2 { width: 330px;	margin: auto;	margin-right: 0;	}
