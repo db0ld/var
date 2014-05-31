@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>EPITECH - BiblioTECH : Prêter et emprunter des livres</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="fr" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="DC.Language" scheme="RFC3066" content="fr" />
+	<meta name="author" content="The db0 company, http://db0.fr Contact db0company@gmail.com" />
+	<meta name="copyright" content="The db0 company, Copyright 2010, Tout droits résérvés. Si du contenu vous appartient et que vous souhaitez qu'il soit retiré du 	site, demandez-le par mail db0company@gmail.com" />
+	<meta name="Keywords" content="REMPLIR" />
+	<meta name="description" content="REMPLIR" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Normal" /> 
+	<link rel="shortcut icon" href="fav.ico">
+</head>
+
+<body>
+<div id="main">
+	<div id="header">
+		<div id="right">
+			<a href="?page=list">
+				<img src="images/interface/livres_disponibles.png" alt="Livres disponibles" /> 
+			</a>
+		</div>
+		<a href="." alt="Return home">
+			<img id="logo" src="images/interface/logo.png" alt="BiblioTECH." /> 
+		</a>
+		<img src="https://www.google.com/adsense/static/fr/images/234x60.gif" />
+	</div>
+	<div id="subheader">
+		<input id="search_input" type="text" />
+		<select id="select_input" name="categorie">
+			<option value="all">Toutes catégories</option>
+			<option value="ED">Programmation</option>
+			<option value="ED">Programmation : C</option>
+			<option value="ED">Programmation : C++</option>
+			<option value="ED">Programmation : Web</option>
+			<option value="ED">Programmation : Java</option>
+			<option value="OP">Informatique général</option>
+			<option value="ED">Autre</option>
+		</select>
+		<select id="select_input" name="langue">
+			<option value="all">Francais et Anglais</option>
+			<option value="all">Francais</option>
+			<option value="all">Anglais</option>
+		</select>
+		<input type="submit" id="search_img" name="Rechercher" value="" /> 
+	</div>
+	<div id="menu">
+		<ul>
+			<li>bouton menu</li>
+			<li>bouton menu</li>
+			<li>bouton menu</li>
+			<li>bouton menu</li>
+		</ul>
+	</div>
+	<div id="page">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor quam nec nunc faucibus nec feugiat odio faucibus. Phasellus erat neque, tristique eu sagittis non, venenatis et sem. Aliquam eu sapien a felis dapibus pellentesque ut sed nibh. Phasellus scelerisque interdum nibh ut ornare. Sed a libero at ipsum interdum varius ac vitae lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et odio nulla. Nam malesuada semper condimentum. Duis fermentum lorem tortor, in mollis massa. Ut id risus tellus, sed malesuada urna. Nulla pellentesque tempor mi, a facilisis elit viverra et. Mauris rutrum, libero nec pulvinar tincidunt, dui orci ornare sem, et ornare mi velit et massa. Nulla facilisi. Sed augue ante, ultricies in pretium id, consectetur ut mi. Nunc ullamcorper pellentesque odio sit amet sollicitudin.
+
+Duis tellus risus, convallis non ultrices faucibus, sagittis ac leo. Mauris tincidunt orci non quam sodales malesuada. Mauris nec tellus eu nisi ornare rutrum quis at mi. Aenean commodo sodales ligula, at fringilla purus bibendum tristique. Donec tincidunt elit nec ligula dapibus non rutrum ligula egestas. Pellentesque pretium porttitor adipiscing. Duis et lectus eu ipsum varius ornare. Praesent ut ligula at neque tincidunt convallis. Vivamus diam nisi, dignissim id condimentum eu, luctus et lacus. Mauris porta, neque quis congue accumsan, lectus enim laoreet ipsum, at aliquet neque augue in felis. Phasellus consectetur euismod lobortis. Nunc congue volutpat lorem, eu tincidunt ligula vestibulum non. Integer tempus nisl quis purus tristique blandit in sit amet nulla. Nulla tellus felis, adipiscing non lacinia eget, porta sit amet purus. Donec lacus mauris, adipiscing id rutrum quis, sagittis eleifend sapien. Fusce sed libero tortor, ac commodo tortor. Suspendisse turpis dolor, tincidunt malesuada euismod vel, tristique ac orci. Fusce fringilla ante sit amet massa faucibus volutpat vitae ut risus. Vivamus mollis nulla ut massa laoreet iaculis. Etiam est sem, sodales eget tincidunt sit amet, condimentum in est. 
+	</div>
+	<div id="footer">
+		crédits blabla
+	</div>
+</div>
+</body>
+</html>

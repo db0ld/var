@@ -1,0 +1,104 @@
+body {
+	background: #90bee5;
+	font-family: Tahoma;
+	color: #000000;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+#main {
+	margin: auto;
+	width: 1000px;
+	margin-top: 10px;
+}
+
+/****************/
+#header, #subheader, #page, #menu, #subheader #search_input, #subheader #select_input, #footer {
+	border: 1px #717171 solid;
+}
+
+#subheader #search_input, #subheader #select_input  {
+	-moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+#header {
+	padding: 20px;
+	background: #ffffff url('images/interface/bg_header.png') repeat-x;
+	text-shadow: #5F5F5F 1px 1px 5px;
+}
+#header #right {
+	float: right;
+	padding-right: 10px;
+}
+#header #logo {
+	padding-right: 30px;
+}
+
+#subheader {
+	background: #5B91BF;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	padding: 5px;
+	text-align: right;
+}
+#subheader #search_input {
+	height: 15px;
+	margin: 5px;
+	width: 150px;
+	font-size: 1em;
+	padding-top: 2px;
+	background: #ffffff url('images/interface/degrade_small.png') repeat-x bottom;
+	color: #454545;
+	padding: 2px;
+}
+#subheader #select_input {
+	color: #454545;
+	margin-right: 10px;
+	padding: 2px;
+	background: #ffffff url('images/interface/degrade_small.png') repeat-x bottom;
+}
+#subheader #search_img {
+	background: url('images/interface/rechercher.png');
+	width: 125px;
+	height: 30px;
+	border: none;
+ }
+
+#menu {
+	float: right;
+	width: 220px;
+	background: url('http://www.epitech.eu/intra/images/epitech_fond_nav.gif');
+	color: #ffffff;
+	min-height: 500px;
+}
+
+#page {
+	width: 730px;
+	min-height: 460px;
+	padding: 20px;
+	background: #ffffff;
+}
+
+#footer {
+	margin-top: 4px;
+	background: #5B91BF url('images/interface/degrade_small.png') repeat-x bottom;
+	height: 30px;
+	padding: 10px;
+}
