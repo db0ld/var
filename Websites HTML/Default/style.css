@@ -1,0 +1,45 @@
+body {
+	background: #ffffff url('img/bg.png');
+	font-family: Tahoma;
+	color: #000000;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+#main {
+	margin: auto;
+	width: 940px;
+	margin-top: 10px;
+}
+
+/****************/
+
+#header {
+
+}
+
+#menu {
+	float: right;
+}
+
+#page {
+
+}
+
+#footer {
+
+}
