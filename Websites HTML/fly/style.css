@@ -1,0 +1,123 @@
+body {
+background: white url('images/interface/fond.jpg');
+font-family: Tahoma;
+font-size: 12px;
+color: black;
+margin: auto;
+margin-top: 0;
+margin-bottom: 0;
+}
+img {
+border: none;
+font-size: 12px;
+vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #0470E4;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+#main {
+margin: auto;
+width: 1005px;
+height:880px;
+}
+#main-1 {
+background: url('images/interface/fond.png') no-repeat;
+padding-top: 250px;
+padding-left:230px;
+height:630px;
+}
+#page {
+width: 555px;
+height:435px;
+overflow: auto;
+}
+
+#menu {
+float:right;
+width:210px;
+}
+
+#accueil {background: url('images/interface/accueil1.png') no-repeat ; width: 205px; height: 25px; padding-bottom:50px;}
+#accueil:hover {background: url('images/interface/accueil0.png') no-repeat;}
+#actus {background: url('images/interface/actus1.png') no-repeat ; width: 205px; height: 25px; padding-bottom:50px;}
+#actus:hover {background: url('images/interface/actus0.png') no-repeat;}
+#portfolio {background: url('images/interface/portfolio1.png') no-repeat ; width: 205px; height: 25px; padding-bottom:50px;}
+#portfolio:hover {background: url('images/interface/portfolio0.png') no-repeat;}
+#contact {background: url('images/interface/contact1.png') no-repeat ; width: 205px; height: 25px; padding-bottom:50px;}
+#contact:hover {background: url('images/interface/contact0.png') no-repeat;}
+
+/* Contenu pages */
+
+/*
+	Bordure :
+		dotted = pointille
+		dashed = tirete
+		solid = normal
+*/
+/*
+	Couleur :
+		#ffffff : code hexadecimal couleur
+		black : nom de la couleur
+		rgb(255,255,255) : 3 couleurs
+*/
+
+.actu {
+	border: 3px solid black;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.actu .title  {
+	font-weight: bolder;
+	width: 100% - 20px;
+	background: #0470E4;
+	padding: 10px;
+	color: white;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+.actu, .actu .title  {
+	-moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;	
+}
+
+.actu .title a {
+	color: white;
+}
+
+.actu .title a:hover {
+	text-decoration: none;
+	border-bottom: dashed 1px white;
+}
+
+.actu img {
+	padding: 20px;
+	margin: 10px;
+	background: url('images/interface/fond_image.png') no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
