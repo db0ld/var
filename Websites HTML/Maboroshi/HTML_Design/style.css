@@ -1,0 +1,31 @@
+body {
+	background: #ffffff url('images/interface/bg.gif');
+	font-family: Tahoma;
+	color: rgb(119,118,136);
+	font-size: 12px;
+}
+img {
+border: none;
+font-size: 12px;
+vertical-align: bottom;
+}
+a { text-decoration: none; color: rgb(253, 138,194); }
+a:hover { text-decoration: underline overline; }
+#main {margin: auto;
+	width: 940px;
+	margin-top: 10px;}
+.p { text-indent: 15px; }
+.right { text-align: right; }
+.center { text-align: center; }
+.left { text-align: left; }
+
+#header { width: 904px; height: 180px; background: url('images/interface/banniere.png') no-repeat;
+		padding-top: 160px; padding-left: 36px; }
+#pub { width: 728px; height: 95px;  }
+#sorties img { border : 2px solid rgb(19,35,33); height: 76px; }
+.info-sorties { float: right; height: 76px; overflow: hidden; }
+#menu-right { width: 187px; float: right; background: url('images/menu/bg-menu.png') repeat-y; }
+#menu-left { width: 162px; float: left; background: rgb(206,229,247); }
+#menu-left li, #menu-right li{ font-size: 15px; list-style-type : none; }
+#menu-left li:hover, #menu-right li:hover{ list-style-image: url("images/menu/puce.png"); font-size: 18px; }
+#page { width: 591px; }
